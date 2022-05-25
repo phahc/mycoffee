@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "uw+DLLx5n5Rpn7lo/d72NTcS8fzR6y5riK30tbtp1KRwsELyQRwEIZ+U/YchEGGfvADiyTuPyK9IbA8WwroKAA==",
+  "success": true,
+  "projectFilePath": "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\Coffee.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phahc\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\entityframework\\4.2.0\\entityframework.4.2.0.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\mysql.data\\8.0.29\\mysql.data.8.0.29.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\phahc\\.nuget\\packages\\tracerx-logger\\6.1.0\\tracerx-logger.6.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

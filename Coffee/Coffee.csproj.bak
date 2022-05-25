@@ -1,0 +1,1266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1843A600-6A1D-4270-B84D-29297785F56A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coffee</RootNamespace>
+    <AssemblyName>Coffee</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.2.UI, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Ribbon.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress\DXperience 12.2\Bin\Framework\DevExpress.Xpf.Ribbon.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.2.Wizard, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.2.Extensions, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v12.2.Extensions, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraWizard.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="mCoreLib, Version=1.2.6.0, Culture=neutral, PublicKeyToken=af4ea91d0c067e21, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\mCoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data.entity, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\mysql.data.entity.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.visualstudio, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\mysql.visualstudio.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="MyUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MyUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TracerX-Logger, Version=4.0.1005.1163, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TracerX-Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="advancemoney.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="appointment.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="area.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="area_table.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bophan.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="chitiethdn.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="chitiethoadontra.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="company.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="config.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="congnokhachhang.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="congnoncc.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_HoaDonThanhToan.cs">
+      <DependentUpon>DataSet_HoaDonThanhToan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_HoaDonThanhToan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_HoaDonThanhToan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_ThuChi.cs">
+      <DependentUpon>DataSet_ThuChi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_ThuChi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ThuChi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_ViewPlanDay.cs">
+      <DependentUpon>DataSet_ViewPlanDay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataSet_ViewPlanDay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ViewPlanDay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="determine.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="donvitinh.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="employee.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="employeeright.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="employeestate.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AboutMe.Designer.cs">
+      <DependentUpon>frm_AboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AccountManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AccountManager.Designer.cs">
+      <DependentUpon>frm_AccountManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditAccount.Designer.cs">
+      <DependentUpon>frm_AddEditAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditArea.Designer.cs">
+      <DependentUpon>frm_AddEditArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditCustomer.Designer.cs">
+      <DependentUpon>frm_AddEditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditCustomerSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditCustomerSkin.Designer.cs">
+      <DependentUpon>frm_AddEditCustomerSkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditInputOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditInputOrder.Designer.cs">
+      <DependentUpon>frm_AddEditInputOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditMailReceiver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditMailReceiver.Designer.cs">
+      <DependentUpon>frm_AddEditMailReceiver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditMenu.Designer.cs">
+      <DependentUpon>frm_AddEditMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditOrder.Designer.cs">
+      <DependentUpon>frm_AddEditOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditPlanWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditPlanWork.Designer.cs">
+      <DependentUpon>frm_AddEditPlanWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditProduct.Designer.cs">
+      <DependentUpon>frm_AddEditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditTable.Designer.cs">
+      <DependentUpon>frm_AddEditTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditAdvance.Designer.cs">
+      <DependentUpon>frm_AddEditAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Advance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Advance.Designer.cs">
+      <DependentUpon>frm_Advance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ChooseInPutStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ChooseInPutStock.Designer.cs">
+      <DependentUpon>frm_ChooseInPutStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Company.Designer.cs">
+      <DependentUpon>frm_Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Customer.Designer.cs">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditDVT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditDVT.Designer.cs">
+      <DependentUpon>frm_AddEditDVT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CustomerSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CustomerSkin.Designer.cs">
+      <DependentUpon>frm_CustomerSkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DanhSachThuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachThuChi.Designer.cs">
+      <DependentUpon>frm_DanhSachThuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DVTinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DVTinh.Designer.cs">
+      <DependentUpon>frm_DVTinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditIcon.Designer.cs">
+      <DependentUpon>frm_AddEditIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Icon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Icon.Designer.cs">
+      <DependentUpon>frm_Icon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_InputStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_InputStock.Designer.cs">
+      <DependentUpon>frm_InputStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MailReceiver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MailReceiver.Designer.cs">
+      <DependentUpon>frm_MailReceiver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaySheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaySheet.Designer.cs">
+      <DependentUpon>frm_PaySheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Area.Designer.cs">
+      <DependentUpon>frm_Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ChangeNameLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ChangeNameLogin.Designer.cs">
+      <DependentUpon>frm_ChangeNameLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ChangePassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ChangePassWord.Designer.cs">
+      <DependentUpon>frm_ChangePassWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ChooseProductForOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ChooseProductForOrder.Designer.cs">
+      <DependentUpon>frm_ChooseProductForOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Config.Designer.cs">
+      <DependentUpon>frm_Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EmployeeInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EmployeeInformation.Designer.cs">
+      <DependentUpon>frm_EmployeeInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EmployeeStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EmployeeStatus.Designer.cs">
+      <DependentUpon>frm_EmployeeStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_InputOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_InputOrder.Designer.cs">
+      <DependentUpon>frm_InputOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditMadeIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditMadeIn.Designer.cs">
+      <DependentUpon>frm_AddEditMadeIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LogOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LogOut.Designer.cs">
+      <DependentUpon>frm_LogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MadeIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MadeIn.Designer.cs">
+      <DependentUpon>frm_MadeIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MainCoffee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MainCoffee.Designer.cs">
+      <DependentUpon>frm_MainCoffee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Pay.Designer.cs">
+      <DependentUpon>frm_Pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PhieuThuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhieuThuChi.Designer.cs">
+      <DependentUpon>frm_PhieuThuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PlanDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PlanDay.Designer.cs">
+      <DependentUpon>frm_PlanDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PlanWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PlanWork.Designer.cs">
+      <DependentUpon>frm_PlanWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PlusTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PlusTable.Designer.cs">
+      <DependentUpon>frm_PlusTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Product.Designer.cs">
+      <DependentUpon>frm_Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AddEditProductPromote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AddEditProductPromote.Designer.cs">
+      <DependentUpon>frm_AddEditProductPromote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ProductPromote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ProductPromote.Designer.cs">
+      <DependentUpon>frm_ProductPromote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RegisterKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RegisterKey.Designer.cs">
+      <DependentUpon>frm_RegisterKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Report.Designer.cs">
+      <DependentUpon>frm_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SelectAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SelectAddProduct.Designer.cs">
+      <DependentUpon>frm_SelectAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SelectEmployeeAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SelectEmployeeAdvance.Designer.cs">
+      <DependentUpon>frm_SelectEmployeeAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SelectPersonPhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SelectPersonPhieuThu.Designer.cs">
+      <DependentUpon>frm_SelectPersonPhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SelectProductToStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SelectProductToStock.Designer.cs">
+      <DependentUpon>frm_SelectProductToStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SQLConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SQLConfig.Designer.cs">
+      <DependentUpon>frm_SQLConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhapHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NhapHoaDon.Designer.cs">
+      <DependentUpon>frm_NhapHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Stock.Designer.cs">
+      <DependentUpon>frm_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Table.Designer.cs">
+      <DependentUpon>frm_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ViewLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ViewLog.Designer.cs">
+      <DependentUpon>frm_ViewLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ViewOrderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ViewOrderDetail.Designer.cs">
+      <DependentUpon>frm_ViewOrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hoadonnhap.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hoadontra.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="icon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="khachhang.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="kho.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="khuvuc.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="listorder.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="log.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="madein.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="maillog.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mailreceiver.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="managermenu.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="managerright.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="money_trading.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="order_detail.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pay_sheet.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="phieuchi.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="phieuthu.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planwork.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="promote.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="promote_detail.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_ViewDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_ViewDemo.Designer.cs">
+      <DependentUpon>frm_ViewDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_ViewPlanDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_ViewPlanDay.Designer.cs">
+      <DependentUpon>frm_ViewPlanDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_ViewThuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_ViewThuChi.Designer.cs">
+      <DependentUpon>frm_ViewThuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\XtraReport_ThuChi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\XtraReport_ThuChi.Designer.cs">
+      <DependentUpon>XtraReport_ThuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\XtraReport_ViewPlanDay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\XtraReport_ViewPlanDay.Designer.cs">
+      <DependentUpon>XtraReport_ViewPlanDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\XtraReport_XuatHoaDonThanhToan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\XtraReport_XuatHoaDonThanhToan.Designer.cs">
+      <DependentUpon>XtraReport_XuatHoaDonThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="smartlink.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskScheduler.cs" />
+    <Compile Include="thongtinct.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="thue.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tonkho.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\CoffeeHelpers.cs" />
+    <EmbeddedResource Include="frm_AboutMe.resx">
+      <DependentUpon>frm_AboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditCustomer.resx">
+      <DependentUpon>frm_AddEditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditCustomerSkin.resx">
+      <DependentUpon>frm_AddEditCustomerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditAdvance.resx">
+      <DependentUpon>frm_AddEditAdvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditMailReceiver.resx">
+      <DependentUpon>frm_AddEditMailReceiver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Advance.resx">
+      <DependentUpon>frm_Advance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ChooseInPutStock.resx">
+      <DependentUpon>frm_ChooseInPutStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Company.resx">
+      <DependentUpon>frm_Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Customer.resx">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditDVT.resx">
+      <DependentUpon>frm_AddEditDVT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CustomerSkin.resx">
+      <DependentUpon>frm_CustomerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DanhSachThuChi.resx">
+      <DependentUpon>frm_DanhSachThuChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DVTinh.resx">
+      <DependentUpon>frm_DVTinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditIcon.resx">
+      <DependentUpon>frm_AddEditIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Icon.resx">
+      <DependentUpon>frm_Icon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_InputStock.resx">
+      <DependentUpon>frm_InputStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MailReceiver.resx">
+      <DependentUpon>frm_MailReceiver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaySheet.resx">
+      <DependentUpon>frm_PaySheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ChangeNameLogin.resx">
+      <DependentUpon>frm_ChangeNameLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhieuThuChi.resx">
+      <DependentUpon>frm_PhieuThuChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PlusTable.resx">
+      <DependentUpon>frm_PlusTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RegisterKey.resx">
+      <DependentUpon>frm_RegisterKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Report.resx">
+      <DependentUpon>frm_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SelectAddProduct.resx">
+      <DependentUpon>frm_SelectAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SelectEmployeeAdvance.resx">
+      <DependentUpon>frm_SelectEmployeeAdvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SelectPersonPhieuThu.resx">
+      <DependentUpon>frm_SelectPersonPhieuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SelectProductToStock.resx">
+      <DependentUpon>frm_SelectProductToStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhapHoaDon.resx">
+      <DependentUpon>frm_NhapHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Stock.resx">
+      <DependentUpon>frm_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ViewLog.resx">
+      <DependentUpon>frm_ViewLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reports\frm_ViewDemo.resx">
+      <DependentUpon>frm_ViewDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frm_ViewPlanDay.resx">
+      <DependentUpon>frm_ViewPlanDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frm_ViewThuChi.resx">
+      <DependentUpon>frm_ViewThuChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\XtraReport_ThuChi.resx">
+      <DependentUpon>XtraReport_ThuChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\XtraReport_ViewPlanDay.resx">
+      <DependentUpon>XtraReport_ViewPlanDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\XtraReport_XuatHoaDonThanhToan.resx">
+      <DependentUpon>XtraReport_XuatHoaDonThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="frm_AccountManager.resx">
+      <DependentUpon>frm_AccountManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditAccount.resx">
+      <DependentUpon>frm_AddEditAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditArea.resx">
+      <DependentUpon>frm_AddEditArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditInputOrder.resx">
+      <DependentUpon>frm_AddEditInputOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditMenu.resx">
+      <DependentUpon>frm_AddEditMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditOrder.resx">
+      <DependentUpon>frm_AddEditOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditPlanWork.resx">
+      <DependentUpon>frm_AddEditPlanWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditProduct.resx">
+      <DependentUpon>frm_AddEditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditTable.resx">
+      <DependentUpon>frm_AddEditTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Area.resx">
+      <DependentUpon>frm_Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ChangePassWord.resx">
+      <DependentUpon>frm_ChangePassWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ChooseProductForOrder.resx">
+      <DependentUpon>frm_ChooseProductForOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Config.resx">
+      <DependentUpon>frm_Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EmployeeInformation.resx">
+      <DependentUpon>frm_EmployeeInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EmployeeStatus.resx">
+      <DependentUpon>frm_EmployeeStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_InputOrder.resx">
+      <DependentUpon>frm_InputOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditMadeIn.resx">
+      <DependentUpon>frm_AddEditMadeIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LogOut.resx">
+      <DependentUpon>frm_LogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MadeIn.resx">
+      <DependentUpon>frm_MadeIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MainCoffee.resx">
+      <DependentUpon>frm_MainCoffee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Pay.resx">
+      <DependentUpon>frm_Pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PlanDay.resx">
+      <DependentUpon>frm_PlanDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PlanWork.resx">
+      <DependentUpon>frm_PlanWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Product.resx">
+      <DependentUpon>frm_Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AddEditProductPromote.resx">
+      <DependentUpon>frm_AddEditProductPromote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ProductPromote.resx">
+      <DependentUpon>frm_ProductPromote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SQLConfig.resx">
+      <DependentUpon>frm_SQLConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Table.resx">
+      <DependentUpon>frm_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ViewOrderDetail.resx">
+      <DependentUpon>frm_ViewOrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="CoffeeModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CoffeeModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CoffeeModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+      <LastGenOutput>CoffeeModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="CoffeeModel.edmx.diagram">
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+    </None>
+    <None Include="CoffeeModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+      <LastGenOutput>CoffeeModel.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DataSet_HoaDonThanhToan.xsc">
+      <DependentUpon>DataSet_HoaDonThanhToan.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataSet_HoaDonThanhToan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_HoaDonThanhToan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DataSet_HoaDonThanhToan.xss">
+      <DependentUpon>DataSet_HoaDonThanhToan.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataSet_ThuChi.xsc">
+      <DependentUpon>DataSet_ThuChi.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataSet_ThuChi.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ThuChi.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DataSet_ThuChi.xss">
+      <DependentUpon>DataSet_ThuChi.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataSet_ViewPlanDay.xsc">
+      <DependentUpon>DataSet_ViewPlanDay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataSet_ViewPlanDay.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ViewPlanDay.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DataSet_ViewPlanDay.xss">
+      <DependentUpon>DataSet_ViewPlanDay.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\mycoffeeEntities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Control\16\1408971287_Map-Marker-Marker-Outside-Azure.png" />
+    <Content Include="Images\Control\16\3d bar chart.png" />
+    <Content Include="Images\Control\16\Abort.png" />
+    <Content Include="Images\Control\16\About.png" />
+    <Content Include="Images\Control\16\Actions-user-group-properties-icon.png" />
+    <Content Include="Images\Control\16\Add.png" />
+    <Content Include="Images\Control\16\add_products.png" />
+    <Content Include="Images\Control\16\Back.png" />
+    <Content Include="Images\Control\16\Bottom.png" />
+    <Content Include="Images\Control\16\box_16.png" />
+    <Content Include="Images\Control\16\company.png" />
+    <Content Include="Images\Control\16\Diagram.png" />
+    <Content Include="Images\Control\16\Down.png" />
+    <Content Include="Images\Control\16\Expand.png" />
+    <Content Include="Images\Control\16\Export-To-File-icon.png" />
+    <Content Include="Images\Control\16\Eye.png" />
+    <Content Include="Images\Control\16\Female symbol.png" />
+    <Content Include="Images\Control\16\Female.png" />
+    <Content Include="Images\Control\16\Folder.png" />
+    <Content Include="Images\Control\16\Forward.png" />
+    <Content Include="Images\Control\16\Groups-Meeting-Dark-icon.png" />
+    <Content Include="Images\Control\16\Left-right.png" />
+    <Content Include="Images\Control\16\Male symbol.png" />
+    <Content Include="Images\Control\16\Male.png" />
+    <Content Include="Images\Control\16\money.png" />
+    <Content Include="Images\Control\16\page_save.png" />
+    <Content Include="Images\Control\16\page_white_delete.png" />
+    <Content Include="Images\Control\16\pdf_icon_16x16.png" />
+    <Content Include="Images\Control\16\People.png" />
+    <Content Include="Images\Control\16\Pie chart.png" />
+    <Content Include="Images\Control\16\Previous.png" />
+    <Content Include="Images\Control\16\Raise.png" />
+    <Content Include="Images\Control\16\Red mark.png" />
+    <Content Include="Images\Control\16\Red star.png" />
+    <Content Include="Images\Control\16\Red tag.png" />
+    <Content Include="Images\Control\16\Repair.png" />
+    <Content Include="Images\Control\16\Report.png" />
+    <Content Include="Images\Control\16\Shield 16x16.png" />
+    <Content Include="Images\Control\16\Thumbs down.png" />
+    <Content Include="Images\Control\16\Thumbs up.png" />
+    <Content Include="Images\Control\16\Up-down.png" />
+    <Content Include="Images\Login\Admin.png" />
+    <Content Include="Images\Control\16\Alarm.png" />
+    <Content Include="Images\Control\16\bar.png" />
+    <Content Include="Images\Control\16\Boss.png" />
+    <Content Include="Images\Control\16\Brush.png" />
+    <Content Include="Images\Login\coffee_manager.png" />
+    <Content Include="Images\Other\Actions-svn-update-icon.png" />
+    <Content Include="Images\Other\applications_system.png" />
+    <Content Include="Images\Other\Apps-system-software-update-icon.png" />
+    <Content Include="Images\Other\benchmarking.png" />
+    <Content Include="Images\Other\box_food-48.png" />
+    <Content Include="Images\Other\coffee.png" />
+    <Content Include="Images\Other\coffee_shop.ico" />
+    <Content Include="Images\Other\company.png" />
+    <Content Include="Images\Other\dollars.png" />
+    <Content Include="Images\Other\emblem_money.png" />
+    <Content Include="Images\Other\FIVERR-LEVEL-1-PNG.png" />
+    <Content Include="Images\Other\gmail.png" />
+    <Content Include="Images\Other\group_edit_128.png" />
+    <Content Include="Images\Other\home_blocked_128.png" />
+    <Content Include="Images\Other\icon_changePassword.png" />
+    <Content Include="Images\Other\info.png" />
+    <Content Include="Images\Other\kteatime.ico" />
+    <Content Include="Images\Other\money _1.png" />
+    <Content Include="Images\Other\money.png" />
+    <Content Include="Images\Other\money_2.png" />
+    <Content Include="Images\Other\money_3.png" />
+    <Content Include="Images\Other\office_calendar.png" />
+    <Content Include="Images\Other\plan.png" />
+    <Content Include="Images\Other\profile.png" />
+    <Content Include="Images\Other\Register-icon.png" />
+    <Content Include="Images\Other\users.png" />
+    <Content Include="Images\Product\72\coffee_table1.png" />
+    <Content Include="Images\Table\RoyalFurniture_Table-icon.png" />
+    <None Include="Resources\write.png" />
+    <None Include="Resources\box_food-48.png" />
+    <None Include="Images\Control\16\Calendar_16x16.png" />
+    <Content Include="Images\Product\32\1-32.png" />
+    <Content Include="Images\Product\32\10-32.png" />
+    <Content Include="Images\Product\32\11-32.png" />
+    <Content Include="Images\Product\32\12-32.png" />
+    <Content Include="Images\Product\32\15-32.png" />
+    <Content Include="Images\Product\32\17-32.png" />
+    <Content Include="Images\Product\32\1_meat-32.png" />
+    <Content Include="Images\Product\32\1_tea-32.png" />
+    <Content Include="Images\Product\32\20-32 %281%29.png" />
+    <Content Include="Images\Product\32\20-32.png" />
+    <Content Include="Images\Product\32\21-32.png" />
+    <Content Include="Images\Product\32\22-32.png" />
+    <Content Include="Images\Product\32\28-32.png" />
+    <Content Include="Images\Product\32\7-32.png" />
+    <Content Include="Images\Product\32\7Up_32.png" />
+    <Content Include="Images\Product\32\9-48.png" />
+    <Content Include="Images\Product\32\ananas.png" />
+    <Content Include="Images\Product\32\Bartender-ico.png" />
+    <Content Include="Images\Product\32\beer-32.png" />
+    <Content Include="Images\Product\32\beer_.png" />
+    <Content Include="Images\Product\32\blue_.png" />
+    <Content Include="Images\Product\32\bottle-32.png" />
+    <Content Include="Images\Product\32\box_food-32.png" />
+    <Content Include="Images\Product\32\bread.png" />
+    <Content Include="Images\Product\32\cake.png" />
+    <Content Include="Images\Product\32\cake1.png" />
+    <Content Include="Images\Product\32\cake2.png" />
+    <Content Include="Images\Product\32\cake_big.png" />
+    <Content Include="Images\Product\32\cheese.png" />
+    <Content Include="Images\Control\16\Clipboard.png" />
+    <Content Include="Images\Control\16\Clock.png" />
+    <Content Include="Images\Product\32\cigarretes.png" />
+    <Content Include="Images\Product\32\cigarretes_blue.png" />
+    <Content Include="Images\Product\32\Coconut.png" />
+    <Content Include="Images\Product\32\coffee 00.png" />
+    <Content Include="Images\Product\32\coffee _22.png" />
+    <Content Include="Images\Product\32\coffee33.png" />
+    <Content Include="Images\Product\32\coffeecup_reed.png" />
+    <Content Include="Images\Product\32\Coffee_Empty.png" />
+    <Content Include="Images\Product\32\coffee_menu.png" />
+    <Content Include="Images\Other\coffee_shop.png" />
+    <Content Include="Images\Other\coffee_shop_Small.png" />
+    <Content Include="Images\Other\coffee_store.png" />
+    <Content Include="Images\Other\coffee_store_small.png" />
+    <Content Include="Images\Product\32\coffee_time.png" />
+    <Content Include="Images\Product\32\Cola-32.png" />
+    <Content Include="Images\Product\32\cookie.png" />
+    <Content Include="Images\Product\32\cup_Coffee-04-32.png" />
+    <Content Include="Images\Product\32\cup_Coffee-06-32.png" />
+    <Content Include="Images\Product\32\cyan_cupcake.png" />
+    <Content Include="Images\Product\32\drink-32.png" />
+    <Content Include="Images\Product\32\drink_.png" />
+    <Content Include="Images\Product\32\food.png" />
+    <Content Include="Images\Product\32\fruits.png" />
+    <Content Include="Images\Product\32\games_icon.png" />
+    <Content Include="Images\Product\32\Guava.png" />
+    <Content Include="Images\Product\32\ham.png" />
+    <Content Include="Images\Product\32\hotdog-32.png" />
+    <Content Include="Images\Product\32\Icecream-32.png" />
+    <Content Include="Images\Product\32\icon-lemon-2-32.png" />
+    <Content Include="Images\Product\32\icon-orange-32.png" />
+    <Content Include="Images\Product\32\icon-soup-32.png" />
+    <Content Include="Images\Product\32\icon-strawberry-32.png" />
+    <Content Include="Images\Product\32\java.png" />
+    <Content Include="Images\Product\32\Kiwi.png" />
+    <Content Include="Images\Product\32\Mangosteen.png" />
+    <Content Include="Images\Product\32\meat-32.png" />
+    <Content Include="Images\Product\32\muffin.png" />
+    <Content Include="Images\Product\32\mug.png" />
+    <Content Include="Images\Product\32\my_documents.png" />
+    <Content Include="Images\Product\32\noodle-32.png" />
+    <Content Include="Images\Product\32\orange_.png" />
+    <Content Include="Images\Product\32\Pepsi-New_32.png" />
+    <Content Include="Images\Product\32\pinky_cupcake.png" />
+    <Content Include="Images\Product\32\pink_.png" />
+    <Content Include="Images\Product\32\pizza_slice.png" />
+    <Content Include="Images\Product\32\recycle_bin_empty.png" />
+    <Content Include="Images\Product\32\red_orange_.png" />
+    <Content Include="Images\Product\32\Slerpy-32.png" />
+    <Content Include="Images\Product\32\Sprite_32.png" />
+    <Content Include="Images\Product\32\sup.png" />
+    <Content Include="Images\Product\32\toast_12.png" />
+    <Content Include="Images\Product\32\toast_23.png" />
+    <Content Include="Images\Product\32\trash_empty.png" />
+    <Content Include="Images\Product\32\trash_empty_clouds.png" />
+    <Content Include="Images\Product\32\Vita-Cola_32.png" />
+    <Content Include="Images\Product\72\Coffee-break-icon.png" />
+    <Content Include="Images\Product\72\coffeecup_red.png" />
+    <Content Include="Images\Product\72\coffee_table.png" />
+    <Content Include="Images\Control\16\coins-icon.png" />
+    <Content Include="Images\Control\16\Comment.png" />
+    <None Include="Images\Product\72\Custumer.png" />
+    <Content Include="Images\Control\16\cup_add.png" />
+    <Content Include="Images\Control\16\cup_delete.png" />
+    <Content Include="Images\Control\16\cup_edit.png" />
+    <Content Include="Images\Control\16\cup_go.png" />
+    <Content Include="Images\Control\16\cup_key.png" />
+    <Content Include="Images\Control\16\cup_link.png" />
+    <Content Include="Images\Product\72\Customer_Female.png" />
+    <Content Include="Images\Product\72\Customer_Female_Selected.png" />
+    <Content Include="Images\Product\72\Customer_Male.png" />
+    <Content Include="Images\Control\16\Database.png" />
+    <Content Include="Images\Control\16\Delete.png" />
+    <Content Include="Images\Control\16\delete_products.png" />
+    <Content Include="Images\Control\16\Dollar.png" />
+    <Content Include="Images\Control\16\Download.png" />
+    <Content Include="Images\Product\32\Drink.png" />
+    <Content Include="Images\Product\32\drink_coffee.png" />
+    <Content Include="Images\Product\32\Eats.png" />
+    <Content Include="Images\Control\16\Edit_2.png" />
+    <Content Include="Images\Control\16\Equipment.png" />
+    <Content Include="Images\Control\16\Exit.png" />
+    <Content Include="Images\Control\16\Fall.png" />
+    <Content Include="Images\Control\16\Flash.gif" />
+    <Content Include="Images\Product\32\french_fries.png" />
+    <Content Include="Images\Control\16\GetMO.png" />
+    <Content Include="Images\Control\16\Go.png" />
+    <Content Include="Images\Product\32\hamburger_eat.png" />
+    <Content Include="Images\Control\16\Home.png" />
+    <Content Include="Images\Product\72\Notary-icon.png" />
+    <Content Include="Images\Product\72\RoyalFurniture_Table-icon.png" />
+    <Content Include="Images\Table\info_desk.png" />
+    <Content Include="Images\Control\16\Key.png" />
+    <Content Include="Images\Control\16\Liner.png" />
+    <Content Include="Images\Control\16\List.png" />
+    <Content Include="Images\Control\16\Load.png" />
+    <Content Include="Images\Control\16\Logout.png" />
+    <None Include="Images\Control\16\Mail_16x16.png" />
+    <Content Include="Images\Control\16\Mail.png" />
+    <Content Include="Images\Product\32\Money-icon.png" />
+    <Content Include="Images\Control\16\New.png" />
+    <Content Include="Images\Control\16\No-entry.png" />
+    <Content Include="Images\Table\Order_Table.png" />
+    <Content Include="Images\Control\16\Phone number.png" />
+    <Content Include="Images\Control\16\Phone.png" />
+    <Content Include="Images\Control\16\Print.png" />
+    <Content Include="Images\Control\16\printer.png" />
+    <Content Include="Images\Control\16\Refresh.png" />
+    <Content Include="Images\Control\16\Remove.png" />
+    <Content Include="Images\Control\16\Reports.png" />
+    <None Include="Images\Control\16\Ribbon_Exit_16x16.png" />
+    <Content Include="Images\Control\16\Save.png" />
+    <Content Include="Images\Control\16\Script.png" />
+    <Content Include="Images\Control\16\Search.png" />
+    <Content Include="Images\Control\16\SetMO.png" />
+    <Content Include="Images\Product\32\sliced_bread.png" />
+    <Content Include="Images\Product\32\toast.png" />
+    <Content Include="Images\Control\16\Tune.png" />
+    <Content Include="Images\Control\16\Turn off.png" />
+    <Content Include="Images\Control\16\Undo.png" />
+    <Content Include="Images\Control\16\Update.png" />
+    <Content Include="Images\Control\16\Upload.png" />
+    <Content Include="Images\Control\16\User group.png" />
+    <Content Include="Images\Control\16\View.png" />
+    <Content Include="Images\Control\16\Yellow bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Control\32\" />
+    <Folder Include="Images\Product\16\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

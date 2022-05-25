@@ -1,0 +1,554 @@
+D:\[Work]\Coffee\_mCoffee\Coffee\bin\Debug\Coffee.exe.config
+D:\[Work]\Coffee\_mCoffee\Coffee\bin\Debug\Coffee.exe
+D:\[Work]\Coffee\_mCoffee\Coffee\bin\Debug\Coffee.pdb
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomer.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAdvance.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Advance.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Customer.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditDVT.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DVTinh.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PaySheet.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangeNameLogin.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlusTable.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_RegisterKey.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectAddProduct.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectEmployeeAdvance.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewDemo.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewPlanDay.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ViewPlanDay.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_XuatHoaDonThanhToan.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AccountManager.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAccount.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditArea.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditInputOrder.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMenu.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditOrder.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditPlanWork.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProduct.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditTable.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Area.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangePassWord.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseProductForOrder.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_CoffeeName.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Config.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeInformation.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeStatus.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputOrder.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Login.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMadeIn.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_LogOut.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MadeIn.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MainCoffee.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Pay.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanDay.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanWork.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Product.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProductPromote.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ProductPromote.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SQLConfig.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Table.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewOrderDetail.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.Cache
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.exe
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.pdb
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Company.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_CustomerSkin.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomerSkin.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PhieuThuChi.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewThuChi.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ThuChi.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectPersonPhieuThu.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectProductToStock.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputStock.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseInPutStock.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_NhapHoaDon.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Stock.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.exe.licenses
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Report.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.csprojResolveAssemblyReference.cache
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DanhSachThuChi.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MailReceiver.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMailReceiver.resources
+D:\[Work]\Coffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewLog.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.exe.config
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.exe
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.pdb
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\EntityFramework.dll
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\EntityFramework.xml
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AboutMe.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomer.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomerSkin.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAdvance.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMailReceiver.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Advance.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseInPutStock.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Company.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Customer.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditDVT.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_CustomerSkin.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DanhSachThuChi.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DVTinh.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputStock.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MailReceiver.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PaySheet.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangeNameLogin.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PhieuThuChi.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlusTable.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_RegisterKey.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Report.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectAddProduct.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectEmployeeAdvance.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectPersonPhieuThu.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectProductToStock.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_NhapHoaDon.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Stock.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewLog.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewDemo.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewPlanDay.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewThuChi.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ThuChi.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ViewPlanDay.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_XuatHoaDonThanhToan.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AccountManager.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAccount.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditArea.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditInputOrder.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMenu.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditOrder.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditPlanWork.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProduct.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditTable.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Area.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangePassWord.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseProductForOrder.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Config.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeInformation.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeStatus.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputOrder.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Login.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMadeIn.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_LogOut.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MadeIn.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MainCoffee.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Pay.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanDay.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanWork.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Product.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProductPromote.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ProductPromote.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SQLConfig.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Table.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewOrderDetail.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.Cache
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.exe.licenses
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.exe
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.pdb
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.csprojResolveAssemblyReference.cache
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Icon.resources
+D:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditIcon.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.exe.config
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.exe
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.pdb
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.exe
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\Coffee.pdb
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\EntityFramework.dll
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\bin\Debug\EntityFramework.xml
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.csprojResolveAssemblyReference.cache
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AboutMe.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomer.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditCustomerSkin.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAdvance.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMailReceiver.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Advance.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseInPutStock.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Company.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Customer.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditDVT.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_CustomerSkin.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DanhSachThuChi.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_DVTinh.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditIcon.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Icon.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputStock.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MailReceiver.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PaySheet.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangeNameLogin.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PhieuThuChi.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlusTable.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_RegisterKey.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Report.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectAddProduct.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectEmployeeAdvance.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectPersonPhieuThu.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SelectProductToStock.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_NhapHoaDon.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Stock.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewLog.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewDemo.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewPlanDay.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.frm_ViewThuChi.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ThuChi.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_ViewPlanDay.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Reports.XtraReport_XuatHoaDonThanhToan.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AccountManager.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditAccount.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditArea.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditInputOrder.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMenu.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditOrder.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditPlanWork.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProduct.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditTable.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Area.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChangePassWord.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ChooseProductForOrder.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Config.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeInformation.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_EmployeeStatus.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_InputOrder.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Login.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditMadeIn.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_LogOut.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MadeIn.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_MainCoffee.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Pay.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanDay.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_PlanWork.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Product.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_AddEditProductPromote.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ProductPromote.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_SQLConfig.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_Table.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.frm_ViewOrderDetail.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.Cache
+E:\[Work]\Coffee\vCoffee\_mCoffee\Coffee\obj\Debug\Coffee.exe.licenses
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Coffee.exe
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\TracerX-Logger.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Coffee.exe.config
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\BouncyCastle.Crypto.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\EntityFramework.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Google.Protobuf.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Google.Protobuf.pdb
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\K4os.Compression.LZ4.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\K4os.Hash.xxHash.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\MySql.Data.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Ubiety.Dns.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ZstdNet.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\System.Buffers.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\System.Memory.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\TracerX-Logger.pdb
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.CodeParser.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Data.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Images.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Snap.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Snap.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpo.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraReports.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraWizard.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\EntityFramework.SqlServer.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.DataAccess.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpf.Core.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Mvvm.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Data.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Snap.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Snap.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpo.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraReports.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraWizard.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\EntityFramework.SqlServer.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.DataAccess.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Xpf.Core.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Mvvm.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Snap.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Snap.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Snap.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Snap.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Snap.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Snap.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Snap.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Snap.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraWizard.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraWizard.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraWizard.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraWizard.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Xpf.Core.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Xpf.Core.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Xpf.Core.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Xpf.Core.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AboutMe.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditCustomer.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditCustomerSkin.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditAdvance.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditMailReceiver.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Advance.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ChooseInPutStock.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Company.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Customer.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditDVT.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_CustomerSkin.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_DanhSachThuChi.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_DVTinh.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditIcon.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Icon.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_InputStock.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_MailReceiver.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_PaySheet.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ChangeNameLogin.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_PhieuThuChi.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_PlusTable.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_RegisterKey.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Report.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_SelectAddProduct.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_SelectEmployeeAdvance.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_SelectPersonPhieuThu.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_SelectProductToStock.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_NhapHoaDon.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Stock.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ViewLog.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.frm_ViewDemo.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.frm_ViewPlanDay.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.frm_ViewThuChi.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.XtraReport_ThuChi.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.XtraReport_ViewPlanDay.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Reports.XtraReport_XuatHoaDonThanhToan.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AccountManager.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditAccount.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditArea.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditInputOrder.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditMenu.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditOrder.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditPlanWork.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditProduct.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditTable.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Area.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ChangePassWord.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ChooseProductForOrder.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Config.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_EmployeeInformation.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_EmployeeStatus.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_InputOrder.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Login.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditMadeIn.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_LogOut.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_MadeIn.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_MainCoffee.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Pay.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_PlanDay.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_PlanWork.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Product.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_AddEditProductPromote.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ProductPromote.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_SQLConfig.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_Table.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.frm_ViewOrderDetail.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.csproj.GenerateResource.cache
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.exe.licenses
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.csproj.CoreCompileInputs.cache
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.csproj.CopyComplete
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.exe
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\obj\Debug\Coffee.pdb
+D:\Private\e-learning\Thiet ke phan mem\Final-Project\th01\Coffee\bin\Debug\Coffee.pdb

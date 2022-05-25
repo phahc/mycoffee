@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_ViewPlanDay" targetNamespace="http://tempuri.org/DataSet_ViewPlanDay.xsd" xmlns:mstns="http://tempuri.org/DataSet_ViewPlanDay.xsd" xmlns="http://tempuri.org/DataSet_ViewPlanDay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_ViewPlanDay" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_ViewPlanDay" msprop:Generator_UserDSName="DataSet_ViewPlanDay">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_PlanDay" msprop:Generator_TableClassName="DataTable_PlanDayDataTable" msprop:Generator_TableVarName="tableDataTable_PlanDay" msprop:Generator_RowChangedName="DataTable_PlanDayRowChanged" msprop:Generator_TablePropName="DataTable_PlanDay" msprop:Generator_RowDeletingName="DataTable_PlanDayRowDeleting" msprop:Generator_RowChangingName="DataTable_PlanDayRowChanging" msprop:Generator_RowEvHandlerName="DataTable_PlanDayRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_PlanDayRowDeleted" msprop:Generator_RowClassName="DataTable_PlanDayRow" msprop:Generator_UserTableName="DataTable_PlanDay" msprop:Generator_RowEvArgName="DataTable_PlanDayRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="EmployeeID" msprop:Generator_ColumnVarNameInTable="columnEmployeeID" msprop:Generator_ColumnPropNameInRow="EmployeeID" msprop:Generator_ColumnPropNameInTable="EmployeeIDColumn" msprop:Generator_UserColumnName="EmployeeID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName_Create" msprop:Generator_ColumnVarNameInTable="columnEmployeeName_Create" msprop:Generator_ColumnPropNameInRow="EmployeeName_Create" msprop:Generator_ColumnPropNameInTable="EmployeeName_CreateColumn" msprop:Generator_UserColumnName="EmployeeName_Create" type="xs:string" minOccurs="0" />
+              <xs:element name="EmloyeeName_Receive" msprop:Generator_ColumnVarNameInTable="columnEmloyeeName_Receive" msprop:Generator_ColumnPropNameInRow="EmloyeeName_Receive" msprop:Generator_ColumnPropNameInTable="EmloyeeName_ReceiveColumn" msprop:Generator_UserColumnName="EmloyeeName_Receive" type="xs:string" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" msprop:Generator_UserColumnName="StartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiveDate" msprop:Generator_ColumnVarNameInTable="columnReceiveDate" msprop:Generator_ColumnPropNameInRow="ReceiveDate" msprop:Generator_ColumnPropNameInTable="ReceiveDateColumn" msprop:Generator_UserColumnName="ReceiveDate" type="xs:string" minOccurs="0" />
+              <xs:element name="DefaultMoney" msprop:Generator_ColumnVarNameInTable="columnDefaultMoney" msprop:Generator_ColumnPropNameInRow="DefaultMoney" msprop:Generator_ColumnPropNameInTable="DefaultMoneyColumn" msprop:Generator_UserColumnName="DefaultMoney" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMoney" msprop:Generator_ColumnVarNameInTable="columnTotalMoney" msprop:Generator_ColumnPropNameInRow="TotalMoney" msprop:Generator_ColumnPropNameInTable="TotalMoneyColumn" msprop:Generator_UserColumnName="TotalMoney" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_PlanDay" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

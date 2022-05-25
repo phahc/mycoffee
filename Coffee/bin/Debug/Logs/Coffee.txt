@@ -1,0 +1,101 @@
+﻿TracerX: Log file opened at 5/24/2022 5:58:15 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 3.
+05/24/2022 05:58:30.217 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 5:58:30 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 05:58:30.442 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 5:58:30 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 06:01:15.881 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 6:01:15 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 06:01:15.881 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 6:39:06 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 771.
+05/24/2022 06:40:02.245 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 6:40:02 AM Nhân viên Huỳnh Công Pha (13) tiến hành chuyển bàn
+05/24/2022 06:40:09.528 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 6:40:09 AM Nhân viên Huỳnh Công Pha (13) tiến hành chuyển bàn
+05/24/2022 07:17:56.911 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 7:17:56 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 07:17:56.911 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 7:18:23 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 1547.
+05/24/2022 07:18:51.940 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 7:18:51 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-0_012_03
+05/24/2022 07:20:53.568 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 7:20:53 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 07:20:53.568 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 7:51:06 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 2178.
+TracerX: Log file opened at 5/24/2022 8:03:55 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 2337.
+TracerX: Log file opened at 5/24/2022 8:04:58 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 2496.
+TracerX: Log file opened at 5/24/2022 8:29:01 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 2655.
+05/24/2022 08:29:14.056 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:29:14 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-0_016_03
+05/24/2022 08:30:42.999 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:30:42 AM. Nhân viên Huỳnh Công Pha (13) thanh toán đơn hàng DH-32_026_03 có số tiền là 38000 (vnđ)
+05/24/2022 08:31:01.750 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:31:01 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 08:31:02.021 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:31:02 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 08:31:22.529 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:31:22 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 09:54:30.474 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 9:54:30 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 09:54:30.474 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 8:26:55 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 3929.
+05/24/2022 20:27:02.907 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+05/24/2022 20:27:13.717 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:27:13 PM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 20:27:13.717 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 8:33:28 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 4653.
+05/24/2022 20:33:33.332 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+05/24/2022 20:33:38.246 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:33:38 PM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 20:33:38.246 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 8:34:11 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 5377.
+TracerX: Log file opened at 5/24/2022 8:48:57 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 5536.
+05/24/2022 20:49:06.202 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+05/24/2022 20:49:13.185 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:49:13 PM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-0_022_03
+05/24/2022 20:49:46.096 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 8:49:46 PM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 20:49:46.096 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 9:05:23 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 6418.
+05/24/2022 21:05:29.859 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+TracerX: Log file opened at 5/24/2022 9:09:30 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 6828.
+05/24/2022 21:09:34.721 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+05/24/2022 21:12:19.383 Info MainThread Coffee.frm_MainCoffee+ Nhân viên Administrator(7) sửa thông số hệ thống lúc 5/24/2022 9:12:19 PM
+TracerX: Log file opened at 5/24/2022 9:13:10 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 7388.
+05/24/2022 21:13:15.124 Error MainThread Coffee.frm_MainCoffee+ SchedulerCallback đã phát ra exception LINQ to Entities does not recognize the method 'System.String ToString()' method, and this method cannot be translated into a store expression.
+05/24/2022 21:14:50.369 Info MainThread Coffee.frm_NhapHoaDon+ Lúc 5/24/2022 9:14:50 PM, nhân viên Administrator nhập kho có mã phiếu là: HDN-24/05/22-0011
+05/24/2022 21:22:12.883 Info MainThread Coffee.frm_MainCoffee+ Nhân viên Administrator(7) sửa thông số hệ thống lúc 5/24/2022 9:22:12 PM
+TracerX: Log file opened at 5/24/2022 9:33:35 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 8115.
+05/24/2022 21:36:45.403 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 9:36:45 PM. Nhân viên Administrator (7) đã đăng xuất
+05/24/2022 21:36:45.404 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 9:42:26 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 8583.
+TracerX: Log file opened at 5/24/2022 9:43:02 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 8742.
+05/24/2022 22:41:06.381 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 10:41:06 PM. Nhân viên Administrator (7) đã đăng xuất
+05/24/2022 22:41:06.382 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 11:05:40 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 9211.
+05/24/2022 23:06:12.534 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 11:06:12 PM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 23:06:12.535 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 11:06:35 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 9686.
+05/24/2022 23:06:45.845 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 11:06:45 PM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-0_018_03
+05/24/2022 23:07:18.655 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 11:07:18 PM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 23:07:18.943 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 11:07:18 PM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/24/2022 23:07:41.276 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/24/2022 11:07:41 PM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/24/2022 23:07:41.276 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/24/2022 11:09:25 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 10620.
+TracerX: Log file opened at 5/24/2022 11:11:57 PM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 10781.
+TracerX: Log file opened at 5/25/2022 6:12:17 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 10942.
+05/25/2022 06:13:07.127 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:13:07 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/25/2022 06:13:07.128 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 6:13:48 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 11416.
+05/25/2022 06:17:40.536 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:17:40 AM. Nhân viên Administrator (7) đã đăng xuất
+05/25/2022 06:17:40.537 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 6:17:53 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 11885.
+05/25/2022 06:18:29.042 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:18:29 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/25/2022 06:18:29.043 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 6:18:44 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 12359.
+TracerX: Log file opened at 5/25/2022 6:19:29 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 12519.
+TracerX: Log file opened at 5/25/2022 6:45:48 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 12679.
+TracerX: Log file opened at 5/25/2022 6:49:47 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 12839.
+05/25/2022 06:51:17.414 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:51:17 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/25/2022 06:51:17.415 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 6:54:03 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 13313.
+05/25/2022 06:56:04.304 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:56:04 AM Nhân viên Huỳnh Công Pha (13) tiến hành gộp bàn
+05/25/2022 06:58:22.938 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 6:58:22 AM Nhân viên Huỳnh Công Pha (13) tiến hành chuyển bàn
+05/25/2022 07:00:00.407 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:00 AM. Nhân viên Huỳnh Công Pha (13) thanh toán đơn hàng DH-0_022_03 có số tiền là 672000 (vnđ)
+05/25/2022 07:00:22.530 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:22 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-0_07_03
+05/25/2022 07:00:24.478 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:24 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-52_029_03
+05/25/2022 07:00:25.700 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:25 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-53_027_03
+05/25/2022 07:00:27.646 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:27 AM Nhân viên Huỳnh Công Pha(13)đã tạo đơn hàng DH-54_025_03
+05/25/2022 07:00:45.078 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:45 AM. Nhân viên Huỳnh Công Pha (13) đã giao ca thành công với số tiền bàn giao là 710000 (vnđ)
+05/25/2022 07:00:45.082 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:00:45 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/25/2022 07:00:45.082 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 7:01:07 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 15116.
+05/25/2022 07:01:29.208 Info MainThread Coffee.frm_MainCoffee+ Nhân viên Huỳnh Công Pha (13) nhận ca lúc 5/25/2022 7:01:29 AM
+05/25/2022 07:01:40.494 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:01:40 AM. Nhân viên Huỳnh Công Pha (13) đã đăng xuất
+05/25/2022 07:01:40.494 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!
+TracerX: Log file opened at 5/25/2022 7:01:58 AM.  FullFilePolicy = Wrap, Use_00 = False, MaxGrowth = 10 MB, AppendIfSmallerThan = 1 10, initial size = 15725.
+05/25/2022 07:02:27.154 Info MainThread Coffee.frm_MainCoffee+ Nhân viên Administrator(7) sửa thông số hệ thống lúc 5/25/2022 7:02:27 AM
+05/25/2022 07:05:10.656 Info MainThread Coffee.frm_NhapHoaDon+ Lúc 5/25/2022 7:05:10 AM, nhân viên Administrator nhập kho có mã phiếu là: HDN-25/05/22-0021
+05/25/2022 07:12:47.921 Info MainThread Coffee.frm_MainCoffee+ Lúc 5/25/2022 7:12:47 AM. Nhân viên Administrator (7) đã đăng xuất
+05/25/2022 07:12:47.921 Info MainThread Coffee.frm_MainCoffee+ !!!!!!!!!!!!!!!!!!!!!!!!! Bắt đầu khởi động ứng dụng Form_LogOut !!!!!!!!!!!!!!!!!!!!!!!!!

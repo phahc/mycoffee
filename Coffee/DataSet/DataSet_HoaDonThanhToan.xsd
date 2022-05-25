@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_HoaDonThanhToan" targetNamespace="http://tempuri.org/DataSet_HoaDonThanhToan.xsd" xmlns:mstns="http://tempuri.org/DataSet_HoaDonThanhToan.xsd" xmlns="http://tempuri.org/DataSet_HoaDonThanhToan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_HoaDonThanhToan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_HoaDonThanhToan" msprop:Generator_UserDSName="DataSet_HoaDonThanhToan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_HoaDonThanhToan" msprop:Generator_TableClassName="DataTable_HoaDonThanhToanDataTable" msprop:Generator_TableVarName="tableDataTable_HoaDonThanhToan" msprop:Generator_RowChangedName="DataTable_HoaDonThanhToanRowChanged" msprop:Generator_TablePropName="DataTable_HoaDonThanhToan" msprop:Generator_RowDeletingName="DataTable_HoaDonThanhToanRowDeleting" msprop:Generator_RowChangingName="DataTable_HoaDonThanhToanRowChanging" msprop:Generator_RowEvHandlerName="DataTable_HoaDonThanhToanRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_HoaDonThanhToanRowDeleted" msprop:Generator_RowClassName="DataTable_HoaDonThanhToanRow" msprop:Generator_UserTableName="DataTable_HoaDonThanhToan" msprop:Generator_RowEvArgName="DataTable_HoaDonThanhToanRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="Money" msprop:Generator_ColumnVarNameInTable="columnMoney" msprop:Generator_ColumnPropNameInRow="Money" msprop:Generator_ColumnPropNameInTable="MoneyColumn" msprop:Generator_UserColumnName="Money" type="xs:string" minOccurs="0" />
+              <xs:element name="MoneyPromote" msprop:Generator_ColumnVarNameInTable="columnMoneyPromote" msprop:Generator_ColumnPropNameInRow="MoneyPromote" msprop:Generator_ColumnPropNameInTable="MoneyPromoteColumn" msprop:Generator_UserColumnName="MoneyPromote" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_HoaDonThanhToan" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

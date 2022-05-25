@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9602ec17d1a7474194e4a95f12e5d10d" Name="Diagram1">
+        <EntityTypeShape EntityType="mycoffeeModel.advancemoney" Width="1.5" PointX="6" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.appointment" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.area" Width="1.5" PointX="1.5" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.area_table" Width="1.5" PointX="3.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.bophan" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.chitiethdn" Width="1.5" PointX="11.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.chitiethoadontra" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.company" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.config" Width="1.5" PointX="5.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.congnokhachhang" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.congnoncc" Width="1.5" PointX="11.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.determine" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.donvitinh" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.employee" Width="1.5" PointX="3.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.employeeright" Width="1.5" PointX="13.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.employeestate" Width="1.5" PointX="6" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.hoadonnhap" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.hoadontra" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.icon" Width="1.5" PointX="1.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.khachhang" Width="1.5" PointX="14" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.kho" Width="1.5" PointX="3.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.khuvuc" Width="1.5" PointX="11.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.listorder" Width="1.5" PointX="6" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.log" Width="1.5" PointX="13.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.madein" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.maillog" Width="1.5" PointX="13.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.mailreceiver" Width="1.5" PointX="15.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.managermenu" Width="1.5" PointX="7.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.managerright" Width="1.5" PointX="15.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.menu" Width="1.5" PointX="3.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.money_trading" Width="1.5" PointX="6" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.order_detail" Width="1.5" PointX="8.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.pay_sheet" Width="1.5" PointX="6" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.phieuchi" Width="1.5" PointX="6" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.phieuthu" Width="1.5" PointX="6" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.planwork" Width="1.5" PointX="1.5" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.product" Width="1.5" PointX="6" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.promote" Width="1.5" PointX="9" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.promote_detail" Width="1.5" PointX="11.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.smartlink" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.thongtinct" Width="1.5" PointX="13.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.thue" Width="1.5" PointX="15.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mycoffeeModel.tonkho" Width="1.5" PointX="8.25" PointY="19.875" IsExpanded="true" />
+        <AssociationConnector Association="mycoffeeModel.FK_PaySheet_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_AreaTable_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_ListOrder_AreaTable" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_CTHDN_HDN" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_CTHDN_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_CTHoaDonTra" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_CTHoaDonTra_HoaDonTra" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Deterine_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_DVT_Icon" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Product_DVT" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Employee_PlanWork" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_EmpState_Emp" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_HDN_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_ListOrder_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_MoneyTrading_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_PaySheet_Emp" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_PhieuChi_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_PhieuThu_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_HDN_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_hoadontra_MadeIn" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Product_Icon" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_KH_KV" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_KH_SmartLink" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Product_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_OrderDetail_ListOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Product_Madein" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_Product_Menu" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_PromoteDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_TONKHO_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="mycoffeeModel.FK_PromoteDetail_Promote" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mycoffeeModelStoreContainer" CdmEntityContainer="mycoffeeEntities">
+    <EntitySetMapping Name="advancemoneys">
+      <EntityTypeMapping TypeName="mycoffeeModel.advancemoney">
+        <MappingFragment StoreEntitySet="advancemoney">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Advance_Money" ColumnName="Advance_Money" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="appointments">
+      <EntityTypeMapping TypeName="mycoffeeModel.appointment">
+        <MappingFragment StoreEntitySet="appointment">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="appointmenttitle" ColumnName="appointmenttitle" />
+          <ScalarProperty Name="appointmentdate" ColumnName="appointmentdate" />
+          <ScalarProperty Name="alarmbefore" ColumnName="alarmbefore" />
+          <ScalarProperty Name="alarmsound" ColumnName="alarmsound" />
+          <ScalarProperty Name="owner" ColumnName="owner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="areas">
+      <EntityTypeMapping TypeName="mycoffeeModel.area">
+        <MappingFragment StoreEntitySet="area">
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="area_table">
+      <EntityTypeMapping TypeName="mycoffeeModel.area_table">
+        <MappingFragment StoreEntitySet="area_table">
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="TableCode" ColumnName="TableCode" />
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Empty" ColumnName="Empty" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bophans">
+      <EntityTypeMapping TypeName="mycoffeeModel.bophan">
+        <MappingFragment StoreEntitySet="bophan">
+          <ScalarProperty Name="mabp" ColumnName="mabp" />
+          <ScalarProperty Name="tenbophan" ColumnName="tenbophan" />
+          <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chitiethdns">
+      <EntityTypeMapping TypeName="mycoffeeModel.chitiethdn">
+        <MappingFragment StoreEntitySet="chitiethdn">
+          <ScalarProperty Name="MAHDN" ColumnName="MAHDN" />
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="SOLUONGNHAP" ColumnName="SOLUONGNHAP" />
+          <ScalarProperty Name="GIANHAP" ColumnName="GIANHAP" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chitiethoadontras">
+      <EntityTypeMapping TypeName="mycoffeeModel.chitiethoadontra">
+        <MappingFragment StoreEntitySet="chitiethoadontra">
+          <ScalarProperty Name="mahdt" ColumnName="mahdt" />
+          <ScalarProperty Name="mamh" ColumnName="mamh" />
+          <ScalarProperty Name="soluongtra" ColumnName="soluongtra" />
+          <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="companies">
+      <EntityTypeMapping TypeName="mycoffeeModel.company">
+        <MappingFragment StoreEntitySet="company">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="MaSoThue" ColumnName="MaSoThue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="configs">
+      <EntityTypeMapping TypeName="mycoffeeModel.config">
+        <MappingFragment StoreEntitySet="config">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="congnokhachhangs">
+      <EntityTypeMapping TypeName="mycoffeeModel.congnokhachhang">
+        <MappingFragment StoreEntitySet="congnokhachhang">
+          <ScalarProperty Name="makh" ColumnName="makh" />
+          <ScalarProperty Name="tongtientra" ColumnName="tongtientra" />
+          <ScalarProperty Name="tongtiendatra" ColumnName="tongtiendatra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="congnonccs">
+      <EntityTypeMapping TypeName="mycoffeeModel.congnoncc">
+        <MappingFragment StoreEntitySet="congnoncc">
+          <ScalarProperty Name="mancc" ColumnName="mancc" />
+          <ScalarProperty Name="tongtientra" ColumnName="tongtientra" />
+          <ScalarProperty Name="tongtiendatra" ColumnName="tongtiendatra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="determines">
+      <EntityTypeMapping TypeName="mycoffeeModel.determine">
+        <MappingFragment StoreEntitySet="determine">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProcductDetermine" ColumnName="ProcductDetermine" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="donvitinhs">
+      <EntityTypeMapping TypeName="mycoffeeModel.donvitinh">
+        <MappingFragment StoreEntitySet="donvitinh">
+          <ScalarProperty Name="MADVT" ColumnName="MADVT" />
+          <ScalarProperty Name="DONVITINH1" ColumnName="DONVITINH" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="mycoffeeModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeCode" ColumnName="EmployeeCode" />
+          <ScalarProperty Name="EmployeeRight" ColumnName="EmployeeRight" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmployeeDate" ColumnName="EmployeeDate" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Worktime" ColumnName="Worktime" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="ChangeEmployeeCode" ColumnName="ChangeEmployeeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employeerights">
+      <EntityTypeMapping TypeName="mycoffeeModel.employeeright">
+        <MappingFragment StoreEntitySet="employeeright">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="EmployeeRight1" ColumnName="EmployeeRight" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employeestates">
+      <EntityTypeMapping TypeName="mycoffeeModel.employeestate">
+        <MappingFragment StoreEntitySet="employeestate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoadonnhaps">
+      <EntityTypeMapping TypeName="mycoffeeModel.hoadonnhap">
+        <MappingFragment StoreEntitySet="hoadonnhap">
+          <ScalarProperty Name="MAHDN" ColumnName="MAHDN" />
+          <ScalarProperty Name="HDNCode" ColumnName="HDNCode" />
+          <ScalarProperty Name="MANCC" ColumnName="MANCC" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="NGAYNHAP" ColumnName="NGAYNHAP" />
+          <ScalarProperty Name="TIENPHAITRA" ColumnName="TIENPHAITRA" />
+          <ScalarProperty Name="TIENDATRA" ColumnName="TIENDATRA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoadontras">
+      <EntityTypeMapping TypeName="mycoffeeModel.hoadontra">
+        <MappingFragment StoreEntitySet="hoadontra">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="mahdt" ColumnName="mahdt" />
+          <ScalarProperty Name="mancc" ColumnName="mancc" />
+          <ScalarProperty Name="mahdn" ColumnName="mahdn" />
+          <ScalarProperty Name="ngaytra" ColumnName="ngaytra" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="icons">
+      <EntityTypeMapping TypeName="mycoffeeModel.icon">
+        <MappingFragment StoreEntitySet="icon">
+          <ScalarProperty Name="idIcon" ColumnName="idIcon" />
+          <ScalarProperty Name="IconName" ColumnName="IconName" />
+          <ScalarProperty Name="IconSkin" ColumnName="IconSkin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khachhangs">
+      <EntityTypeMapping TypeName="mycoffeeModel.khachhang">
+        <MappingFragment StoreEntitySet="khachhang">
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="KHCode" ColumnName="KHCode" />
+          <ScalarProperty Name="TENKH" ColumnName="TENKH" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+          <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+          <ScalarProperty Name="SmarkLink" ColumnName="SmarkLink" />
+          <ScalarProperty Name="MAKV" ColumnName="MAKV" />
+          <ScalarProperty Name="SOTAIKHOAN" ColumnName="SOTAIKHOAN" />
+          <ScalarProperty Name="NGANHANG" ColumnName="NGANHANG" />
+          <ScalarProperty Name="MASOTHUE" ColumnName="MASOTHUE" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="WEBSITE" ColumnName="WEBSITE" />
+          <ScalarProperty Name="YAHOO" ColumnName="YAHOO" />
+          <ScalarProperty Name="SKYPE" ColumnName="SKYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khoes">
+      <EntityTypeMapping TypeName="mycoffeeModel.kho">
+        <MappingFragment StoreEntitySet="kho">
+          <ScalarProperty Name="makho" ColumnName="makho" />
+          <ScalarProperty Name="manv" ColumnName="manv" />
+          <ScalarProperty Name="tenkho" ColumnName="tenkho" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="sdtb" ColumnName="sdtb" />
+          <ScalarProperty Name="dtdd" ColumnName="dtdd" />
+          <ScalarProperty Name="nguoilh" ColumnName="nguoilh" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khuvucs">
+      <EntityTypeMapping TypeName="mycoffeeModel.khuvuc">
+        <MappingFragment StoreEntitySet="khuvuc">
+          <ScalarProperty Name="makv" ColumnName="makv" />
+          <ScalarProperty Name="tenkv" ColumnName="tenkv" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="listorders">
+      <EntityTypeMapping TypeName="mycoffeeModel.listorder">
+        <MappingFragment StoreEntitySet="listorder">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Ordercode" ColumnName="Ordercode" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Total_Money" ColumnName="Total_Money" />
+          <ScalarProperty Name="MoneyPayed" ColumnName="MoneyPayed" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="EmployeeTransfer" ColumnName="EmployeeTransfer" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="KhachHang" ColumnName="KhachHang" />
+          <ScalarProperty Name="PercentMoney" ColumnName="PercentMoney" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logs">
+      <EntityTypeMapping TypeName="mycoffeeModel.log">
+        <MappingFragment StoreEntitySet="logs">
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="employeename" ColumnName="employeename" />
+          <ScalarProperty Name="actiondate" ColumnName="actiondate" />
+          <ScalarProperty Name="actions" ColumnName="actions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="madeins">
+      <EntityTypeMapping TypeName="mycoffeeModel.madein">
+        <MappingFragment StoreEntitySet="madein">
+          <ScalarProperty Name="MadeInID" ColumnName="MadeInID" />
+          <ScalarProperty Name="MadeInName" ColumnName="MadeInName" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="MSDKKD" ColumnName="MSDKKD" />
+          <ScalarProperty Name="TDKKD" ColumnName="TDKKD" />
+          <ScalarProperty Name="MSTHUE" ColumnName="MSTHUE" />
+          <ScalarProperty Name="DCDKKD" ColumnName="DCDKKD" />
+          <ScalarProperty Name="SOTK" ColumnName="SOTK" />
+          <ScalarProperty Name="KhuVuc" ColumnName="KhuVuc" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="maillogs">
+      <EntityTypeMapping TypeName="mycoffeeModel.maillog">
+        <MappingFragment StoreEntitySet="maillog">
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="sentdate" ColumnName="sentdate" />
+          <ScalarProperty Name="success" ColumnName="success" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mailreceivers">
+      <EntityTypeMapping TypeName="mycoffeeModel.mailreceiver">
+        <MappingFragment StoreEntitySet="mailreceiver">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AutoSend" ColumnName="AutoSend" />
+          <ScalarProperty Name="AutoSendDate" ColumnName="AutoSendDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="managermenus">
+      <EntityTypeMapping TypeName="mycoffeeModel.managermenu">
+        <MappingFragment StoreEntitySet="managermenu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="managerrights">
+      <EntityTypeMapping TypeName="mycoffeeModel.managerright">
+        <MappingFragment StoreEntitySet="managerright">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="m_Config" ColumnName="m_Config" />
+          <ScalarProperty Name="m_Employee" ColumnName="m_Employee" />
+          <ScalarProperty Name="m_Customer" ColumnName="m_Customer" />
+          <ScalarProperty Name="m_Product" ColumnName="m_Product" />
+          <ScalarProperty Name="m_Stock" ColumnName="m_Stock" />
+          <ScalarProperty Name="m_Plankwork" ColumnName="m_Plankwork" />
+          <ScalarProperty Name="m_Planday" ColumnName="m_Planday" />
+          <ScalarProperty Name="m_Table" ColumnName="m_Table" />
+          <ScalarProperty Name="m_Company" ColumnName="m_Company" />
+          <ScalarProperty Name="m_Email" ColumnName="m_Email" />
+          <ScalarProperty Name="m_Empstatus" ColumnName="m_Empstatus" />
+          <ScalarProperty Name="m_Advance" ColumnName="m_Advance" />
+          <ScalarProperty Name="m_Paysheet" ColumnName="m_Paysheet" />
+          <ScalarProperty Name="m_ThuChi" ColumnName="m_ThuChi" />
+          <ScalarProperty Name="m_View" ColumnName="m_View" />
+          <ScalarProperty Name="m_Full" ColumnName="m_Full" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menus">
+      <EntityTypeMapping TypeName="mycoffeeModel.menu">
+        <MappingFragment StoreEntitySet="menu">
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuCode" ColumnName="MenuCode" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="money_trading">
+      <EntityTypeMapping TypeName="mycoffeeModel.money_trading">
+        <MappingFragment StoreEntitySet="money_trading">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+          <ScalarProperty Name="MoneyCredit" ColumnName="MoneyCredit" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="ReceiveDate" ColumnName="ReceiveDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ReceiveByEmployeeID" ColumnName="ReceiveByEmployeeID" />
+          <ScalarProperty Name="ReceiveByEmployeeName" ColumnName="ReceiveByEmployeeName" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_detail">
+      <EntityTypeMapping TypeName="mycoffeeModel.order_detail">
+        <MappingFragment StoreEntitySet="order_detail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Promote" ColumnName="Promote" />
+          <ScalarProperty Name="PricePromote" ColumnName="PricePromote" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pay_sheet">
+      <EntityTypeMapping TypeName="mycoffeeModel.pay_sheet">
+        <MappingFragment StoreEntitySet="pay_sheet">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="BHYT" ColumnName="BHYT" />
+          <ScalarProperty Name="Allowance" ColumnName="Allowance" />
+          <ScalarProperty Name="Receive" ColumnName="Receive" />
+          <ScalarProperty Name="Over_Time" ColumnName="Over_Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="phieuchis">
+      <EntityTypeMapping TypeName="mycoffeeModel.phieuchi">
+        <MappingFragment StoreEntitySet="phieuchi">
+          <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+          <ScalarProperty Name="PCCode" ColumnName="PCCode" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayChi" ColumnName="NgayChi" />
+          <ScalarProperty Name="SoTienDaTra_PC" ColumnName="SoTienDaTra_PC" />
+          <ScalarProperty Name="LyDo" ColumnName="LyDo" />
+          <ScalarProperty Name="DoiTuongChi" ColumnName="DoiTuongChi" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="DinhKem" ColumnName="DinhKem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="phieuthus">
+      <EntityTypeMapping TypeName="mycoffeeModel.phieuthu">
+        <MappingFragment StoreEntitySet="phieuthu">
+          <ScalarProperty Name="MaPT" ColumnName="MaPT" />
+          <ScalarProperty Name="PTCode" ColumnName="PTCode" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayThu" ColumnName="NgayThu" />
+          <ScalarProperty Name="SoTienTra_PT" ColumnName="SoTienTra_PT" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="DoiTuongNop" ColumnName="DoiTuongNop" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="DinhKem" ColumnName="DinhKem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="planworks">
+      <EntityTypeMapping TypeName="mycoffeeModel.planwork">
+        <MappingFragment StoreEntitySet="planwork">
+          <ScalarProperty Name="PlanWorkID" ColumnName="PlanWorkID" />
+          <ScalarProperty Name="PlanWorkName" ColumnName="PlanWorkName" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="mycoffeeModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="InputPrice" ColumnName="InputPrice" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="MadeInID" ColumnName="MadeInID" />
+          <ScalarProperty Name="ProductSkin" ColumnName="ProductSkin" />
+          <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ExchangeQuantity" ColumnName="ExchangeQuantity" />
+          <ScalarProperty Name="ExchangeDVT" ColumnName="ExchangeDVT" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="promotes">
+      <EntityTypeMapping TypeName="mycoffeeModel.promote">
+        <MappingFragment StoreEntitySet="promote">
+          <ScalarProperty Name="PromoteID" ColumnName="PromoteID" />
+          <ScalarProperty Name="PromoteName" ColumnName="PromoteName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="promote_detail">
+      <EntityTypeMapping TypeName="mycoffeeModel.promote_detail">
+        <MappingFragment StoreEntitySet="promote_detail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PromoteID" ColumnName="PromoteID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="smartlinks">
+      <EntityTypeMapping TypeName="mycoffeeModel.smartlink">
+        <MappingFragment StoreEntitySet="smartlink">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SmarkLink" ColumnName="SmarkLink" />
+          <ScalarProperty Name="LevelMoney" ColumnName="LevelMoney" />
+          <ScalarProperty Name="Percent_SmarkLink" ColumnName="Percent_SmarkLink" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thongtincts">
+      <EntityTypeMapping TypeName="mycoffeeModel.thongtinct">
+        <MappingFragment StoreEntitySet="thongtinct">
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="tenct" ColumnName="tenct" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="masothue" ColumnName="masothue" />
+          <ScalarProperty Name="website" ColumnName="website" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thues">
+      <EntityTypeMapping TypeName="mycoffeeModel.thue">
+        <MappingFragment StoreEntitySet="thue">
+          <ScalarProperty Name="math" ColumnName="math" />
+          <ScalarProperty Name="sothue" ColumnName="sothue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tonkhoes">
+      <EntityTypeMapping TypeName="mycoffeeModel.tonkho">
+        <MappingFragment StoreEntitySet="tonkho">
+          <ScalarProperty Name="NGAYTHANG" ColumnName="NGAYTHANG" />
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="SOLUONGDAU" ColumnName="SOLUONGDAU" />
+          <ScalarProperty Name="SOLUONGXUAT" ColumnName="SOLUONGXUAT" />
+          <ScalarProperty Name="SOLUONGTON" ColumnName="SOLUONGTON" />
+          <ScalarProperty Name="SOLUONGNHAP" ColumnName="SOLUONGNHAP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

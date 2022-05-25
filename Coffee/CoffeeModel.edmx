@@ -1,0 +1,2980 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="mycoffeeModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="mycoffeeModelStoreContainer">
+          <EntitySet Name="advancemoney" EntityType="mycoffeeModel.Store.advancemoney" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="appointment" EntityType="mycoffeeModel.Store.appointment" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="area" EntityType="mycoffeeModel.Store.area" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="area_table" EntityType="mycoffeeModel.Store.area_table" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="bophan" EntityType="mycoffeeModel.Store.bophan" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="chitiethdn" EntityType="mycoffeeModel.Store.chitiethdn" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="chitiethoadontra" EntityType="mycoffeeModel.Store.chitiethoadontra" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="company" EntityType="mycoffeeModel.Store.company" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="config" EntityType="mycoffeeModel.Store.config" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="congnokhachhang" EntityType="mycoffeeModel.Store.congnokhachhang" store:Type="Tables" store:Schema="mycoffee" store:Name="congnokhachhang">
+            <DefiningQuery>SELECT
+      `congnokhachhang`.`makh`, 
+      `congnokhachhang`.`tongtientra`, 
+      `congnokhachhang`.`tongtiendatra`
+      FROM `congnokhachhang` AS `congnokhachhang`</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="congnoncc" EntityType="mycoffeeModel.Store.congnoncc" store:Type="Tables" store:Schema="mycoffee" store:Name="congnoncc">
+            <DefiningQuery>SELECT
+      `congnoncc`.`mancc`, 
+      `congnoncc`.`tongtientra`, 
+      `congnoncc`.`tongtiendatra`
+      FROM `congnoncc` AS `congnoncc`</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="determine" EntityType="mycoffeeModel.Store.determine" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="donvitinh" EntityType="mycoffeeModel.Store.donvitinh" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="employee" EntityType="mycoffeeModel.Store.employee" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="employeeright" EntityType="mycoffeeModel.Store.employeeright" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="employeestate" EntityType="mycoffeeModel.Store.employeestate" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="hoadonnhap" EntityType="mycoffeeModel.Store.hoadonnhap" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="hoadontra" EntityType="mycoffeeModel.Store.hoadontra" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="icon" EntityType="mycoffeeModel.Store.icon" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="khachhang" EntityType="mycoffeeModel.Store.khachhang" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="kho" EntityType="mycoffeeModel.Store.kho" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="khuvuc" EntityType="mycoffeeModel.Store.khuvuc" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="listorder" EntityType="mycoffeeModel.Store.listorder" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="logs" EntityType="mycoffeeModel.Store.logs" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="madein" EntityType="mycoffeeModel.Store.madein" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="maillog" EntityType="mycoffeeModel.Store.maillog" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="mailreceiver" EntityType="mycoffeeModel.Store.mailreceiver" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="managermenu" EntityType="mycoffeeModel.Store.managermenu" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="managerright" EntityType="mycoffeeModel.Store.managerright" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="menu" EntityType="mycoffeeModel.Store.menu" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="money_trading" EntityType="mycoffeeModel.Store.money_trading" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="order_detail" EntityType="mycoffeeModel.Store.order_detail" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="pay_sheet" EntityType="mycoffeeModel.Store.pay_sheet" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="phieuchi" EntityType="mycoffeeModel.Store.phieuchi" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="phieuthu" EntityType="mycoffeeModel.Store.phieuthu" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="planwork" EntityType="mycoffeeModel.Store.planwork" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="product" EntityType="mycoffeeModel.Store.product" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="promote" EntityType="mycoffeeModel.Store.promote" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="promote_detail" EntityType="mycoffeeModel.Store.promote_detail" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="smartlink" EntityType="mycoffeeModel.Store.smartlink" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="thongtinct" EntityType="mycoffeeModel.Store.thongtinct" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="thue" EntityType="mycoffeeModel.Store.thue" store:Type="Tables" Schema="mycoffee" />
+          <EntitySet Name="tonkho" EntityType="mycoffeeModel.Store.tonkho" store:Type="Tables" Schema="mycoffee" />
+          <AssociationSet Name="FK_AreaTable_Area" Association="mycoffeeModel.Store.FK_AreaTable_Area">
+            <End Role="area" EntitySet="area" />
+            <End Role="area_table" EntitySet="area_table" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHDN_HDN" Association="mycoffeeModel.Store.FK_CTHDN_HDN">
+            <End Role="hoadonnhap" EntitySet="hoadonnhap" />
+            <End Role="chitiethdn" EntitySet="chitiethdn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHDN_Product" Association="mycoffeeModel.Store.FK_CTHDN_Product">
+            <End Role="product" EntitySet="product" />
+            <End Role="chitiethdn" EntitySet="chitiethdn" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHoaDonTra" Association="mycoffeeModel.Store.FK_CTHoaDonTra">
+            <End Role="product" EntitySet="product" />
+            <End Role="chitiethoadontra" EntitySet="chitiethoadontra" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHoaDonTra_HoaDonTra" Association="mycoffeeModel.Store.FK_CTHoaDonTra_HoaDonTra">
+            <End Role="hoadontra" EntitySet="hoadontra" />
+            <End Role="chitiethoadontra" EntitySet="chitiethoadontra" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Deterine_Product" Association="mycoffeeModel.Store.FK_Deterine_Product">
+            <End Role="product" EntitySet="product" />
+            <End Role="determine" EntitySet="determine" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DVT_Icon" Association="mycoffeeModel.Store.FK_DVT_Icon">
+            <End Role="icon" EntitySet="icon" />
+            <End Role="donvitinh" EntitySet="donvitinh" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_PlanWork" Association="mycoffeeModel.Store.FK_Employee_PlanWork">
+            <End Role="planwork" EntitySet="planwork" />
+            <End Role="employee" EntitySet="employee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmpState_Emp" Association="mycoffeeModel.Store.FK_EmpState_Emp">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="employeestate" EntitySet="employeestate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HDN_Employee" Association="mycoffeeModel.Store.FK_HDN_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="hoadonnhap" EntitySet="hoadonnhap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HDN_NCC" Association="mycoffeeModel.Store.FK_HDN_NCC">
+            <End Role="madein" EntitySet="madein" />
+            <End Role="hoadonnhap" EntitySet="hoadonnhap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hoadontra_MadeIn" Association="mycoffeeModel.Store.FK_hoadontra_MadeIn">
+            <End Role="madein" EntitySet="madein" />
+            <End Role="hoadontra" EntitySet="hoadontra" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KH_KV" Association="mycoffeeModel.Store.FK_KH_KV">
+            <End Role="khuvuc" EntitySet="khuvuc" />
+            <End Role="khachhang" EntitySet="khachhang" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KH_SmartLink" Association="mycoffeeModel.Store.FK_KH_SmartLink">
+            <End Role="smartlink" EntitySet="smartlink" />
+            <End Role="khachhang" EntitySet="khachhang" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ListOrder_AreaTable" Association="mycoffeeModel.Store.FK_ListOrder_AreaTable">
+            <End Role="area_table" EntitySet="area_table" />
+            <End Role="listorder" EntitySet="listorder" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ListOrder_Employee" Association="mycoffeeModel.Store.FK_ListOrder_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="listorder" EntitySet="listorder" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Menu_Icon" Association="mycoffeeModel.Store.FK_Menu_Icon">
+            <End Role="icon" EntitySet="icon" />
+            <End Role="menu" EntitySet="menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MoneyTrading_Employee" Association="mycoffeeModel.Store.FK_MoneyTrading_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="money_trading" EntitySet="money_trading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderDetail_ListOrder" Association="mycoffeeModel.Store.FK_OrderDetail_ListOrder">
+            <End Role="listorder" EntitySet="listorder" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderDetail_Product" Association="mycoffeeModel.Store.FK_OrderDetail_Product">
+            <End Role="product" EntitySet="product" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PaySheet_Emp" Association="mycoffeeModel.Store.FK_PaySheet_Emp">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="pay_sheet" EntitySet="pay_sheet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PaySheet_Employee" Association="mycoffeeModel.Store.FK_PaySheet_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="advancemoney" EntitySet="advancemoney" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhieuChi_Employee" Association="mycoffeeModel.Store.FK_PhieuChi_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="phieuchi" EntitySet="phieuchi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhieuThu_Employee" Association="mycoffeeModel.Store.FK_PhieuThu_Employee">
+            <End Role="employee" EntitySet="employee" />
+            <End Role="phieuthu" EntitySet="phieuthu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_DVT" Association="mycoffeeModel.Store.FK_Product_DVT">
+            <End Role="donvitinh" EntitySet="donvitinh" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Icon" Association="mycoffeeModel.Store.FK_Product_Icon">
+            <End Role="icon" EntitySet="icon" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Kho" Association="mycoffeeModel.Store.FK_Product_Kho">
+            <End Role="kho" EntitySet="kho" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Madein" Association="mycoffeeModel.Store.FK_Product_Madein">
+            <End Role="madein" EntitySet="madein" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Menu" Association="mycoffeeModel.Store.FK_Product_Menu">
+            <End Role="menu" EntitySet="menu" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PromoteDetail_Product" Association="mycoffeeModel.Store.FK_PromoteDetail_Product">
+            <End Role="product" EntitySet="product" />
+            <End Role="promote_detail" EntitySet="promote_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PromoteDetail_Promote" Association="mycoffeeModel.Store.FK_PromoteDetail_Promote">
+            <End Role="promote" EntitySet="promote" />
+            <End Role="promote_detail" EntitySet="promote_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TONKHO_Product" Association="mycoffeeModel.Store.FK_TONKHO_Product">
+            <End Role="product" EntitySet="product" />
+            <End Role="tonkho" EntitySet="tonkho" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="advancemoney">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="Advance_Money" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Notes" Type="char" MaxLength="10" />
+          <Property Name="Reason" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="appointment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="appointmenttitle" Type="varchar" MaxLength="100" />
+          <Property Name="appointmentdate" Type="char" MaxLength="10" />
+          <Property Name="alarmbefore" Type="int" />
+          <Property Name="alarmsound" Type="tinyint" />
+          <Property Name="owner" Type="int" />
+        </EntityType>
+        <EntityType Name="area">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AreaCode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="SystemKey" Type="int" />
+        </EntityType>
+        <EntityType Name="area_table">
+          <Key>
+            <PropertyRef Name="TableID" />
+          </Key>
+          <Property Name="TableID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TableCode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="AreaID" Type="int" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Empty" Type="int" Nullable="false" />
+          <Property Name="ImageIndex" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="bophan">
+          <Key>
+            <PropertyRef Name="mabp" />
+          </Key>
+          <Property Name="mabp" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="tenbophan" Type="varchar" MaxLength="100" />
+          <Property Name="tinhtrang" Type="int" />
+        </EntityType>
+        <EntityType Name="chitiethdn">
+          <Key>
+            <PropertyRef Name="MAHDN" />
+            <PropertyRef Name="MAMH" />
+          </Key>
+          <Property Name="MAHDN" Type="int" Nullable="false" />
+          <Property Name="MAMH" Type="int" Nullable="false" />
+          <Property Name="SOLUONGNHAP" Type="int" Nullable="false" />
+          <Property Name="GIANHAP" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="TINHTRANG" Type="int" />
+        </EntityType>
+        <EntityType Name="chitiethoadontra">
+          <Key>
+            <PropertyRef Name="mahdt" />
+            <PropertyRef Name="mamh" />
+          </Key>
+          <Property Name="mahdt" Type="int" Nullable="false" />
+          <Property Name="mamh" Type="int" Nullable="false" />
+          <Property Name="soluongtra" Type="int" />
+          <Property Name="tinhtrang" Type="int" />
+        </EntityType>
+        <EntityType Name="company">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CompanyName" Type="varchar" MaxLength="500" />
+          <Property Name="Address" Type="varchar" MaxLength="500" />
+          <Property Name="Phone" Type="varchar" MaxLength="20" />
+          <Property Name="StartTime" Type="datetime" />
+          <Property Name="EndTime" Type="datetime" />
+          <Property Name="Fax" Type="varchar" MaxLength="20" />
+          <Property Name="MaSoThue" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="config">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Notes" Type="char" MaxLength="10" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.mycoffee.congnokhachhang' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="congnokhachhang">
+          <Key>
+            <PropertyRef Name="makh" />
+          </Key>
+          <Property Name="makh" Type="int" Nullable="false" />
+          <Property Name="tongtientra" Type="decimal" Precision="20" />
+          <Property Name="tongtiendatra" Type="decimal" Precision="20" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.mycoffee.congnoncc' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="congnoncc">
+          <Key>
+            <PropertyRef Name="mancc" />
+          </Key>
+          <Property Name="mancc" Type="int" Nullable="false" />
+          <Property Name="tongtientra" Type="decimal" Precision="20" />
+          <Property Name="tongtiendatra" Type="decimal" Precision="20" />
+        </EntityType>
+        <EntityType Name="determine">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="ProcductDetermine" Type="int" />
+          <Property Name="Quantity" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="donvitinh">
+          <Key>
+            <PropertyRef Name="MADVT" />
+          </Key>
+          <Property Name="MADVT" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DONVITINH" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="ImageIndex" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="EmployeeID" />
+          </Key>
+          <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="EmployeeCode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="EmployeeRight" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="Password" Type="varchar" MaxLength="40" />
+          <Property Name="EmployeeDate" Type="datetime" />
+          <Property Name="Sex" Type="varchar" MaxLength="40" />
+          <Property Name="Birthday" Type="datetime" />
+          <Property Name="Salary" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Telephone" Type="varchar" MaxLength="20" />
+          <Property Name="Address" Type="varchar" MaxLength="100" />
+          <Property Name="Notes" Type="varchar" MaxLength="100" />
+          <Property Name="Worktime" Type="int" Nullable="false" />
+          <Property Name="Department" Type="varchar" MaxLength="15" />
+          <Property Name="Locked" Type="int" Nullable="false" />
+          <Property Name="ChangeEmployeeCode" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="employeeright">
+          <Key>
+            <PropertyRef Name="EmployeeID" />
+            <PropertyRef Name="SiteID" />
+            <PropertyRef Name="EmployeeRight" />
+          </Key>
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="SiteID" Type="int" Nullable="false" />
+          <Property Name="EmployeeRight" Type="varchar" Nullable="false" MaxLength="40" />
+        </EntityType>
+        <EntityType Name="employeestate">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Notes" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="hoadonnhap">
+          <Key>
+            <PropertyRef Name="MAHDN" />
+          </Key>
+          <Property Name="MAHDN" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="HDNCode" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="MANCC" Type="int" Nullable="false" />
+          <Property Name="MANV" Type="int" />
+          <Property Name="NGAYNHAP" Type="datetime" />
+          <Property Name="TIENPHAITRA" Type="decimal" Precision="11" />
+          <Property Name="TIENDATRA" Type="decimal" Precision="11" />
+          <Property Name="GHICHU" Type="varchar" MaxLength="200" />
+          <Property Name="TINHTRANG" Type="int" />
+        </EntityType>
+        <EntityType Name="hoadontra">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="mahdt" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="mancc" Type="int" Nullable="false" />
+          <Property Name="mahdn" Type="int" Nullable="false" />
+          <Property Name="ngaytra" Type="datetime" />
+          <Property Name="ghichu" Type="varchar" MaxLength="200" />
+          <Property Name="tinhtrang" Type="int" />
+        </EntityType>
+        <EntityType Name="icon">
+          <Key>
+            <PropertyRef Name="idIcon" />
+          </Key>
+          <Property Name="idIcon" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IconName" Type="blob" />
+          <Property Name="IconSkin" Type="int" />
+        </EntityType>
+        <EntityType Name="khachhang">
+          <Key>
+            <PropertyRef Name="MAKH" />
+          </Key>
+          <Property Name="MAKH" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="KHCode" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="TENKH" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="TINHTRANG" Type="int" Nullable="false" />
+          <Property Name="TotalMoney" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="SmarkLink" Type="int" Nullable="false" />
+          <Property Name="MAKV" Type="int" />
+          <Property Name="SOTAIKHOAN" Type="varchar" MaxLength="30" />
+          <Property Name="NGANHANG" Type="varchar" MaxLength="100" />
+          <Property Name="MASOTHUE" Type="varchar" MaxLength="15" />
+          <Property Name="DIACHI" Type="varchar" MaxLength="100" />
+          <Property Name="SDT" Type="varchar" MaxLength="15" />
+          <Property Name="FAX" Type="varchar" MaxLength="15" />
+          <Property Name="WEBSITE" Type="varchar" MaxLength="30" />
+          <Property Name="YAHOO" Type="varchar" MaxLength="50" />
+          <Property Name="SKYPE" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="kho">
+          <Key>
+            <PropertyRef Name="makho" />
+          </Key>
+          <Property Name="makho" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="manv" Type="int" Nullable="false" />
+          <Property Name="tenkho" Type="varchar" MaxLength="100" />
+          <Property Name="diachi" Type="varchar" MaxLength="100" />
+          <Property Name="sdtb" Type="varchar" MaxLength="15" />
+          <Property Name="dtdd" Type="varchar" MaxLength="15" />
+          <Property Name="nguoilh" Type="varchar" MaxLength="60" />
+          <Property Name="fax" Type="varchar" MaxLength="15" />
+          <Property Name="ghichu" Type="varchar" MaxLength="200" />
+          <Property Name="tinhtrang" Type="int" />
+        </EntityType>
+        <EntityType Name="khuvuc">
+          <Key>
+            <PropertyRef Name="makv" />
+          </Key>
+          <Property Name="makv" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tenkv" Type="varchar" MaxLength="100" />
+          <Property Name="ghichu" Type="varchar" MaxLength="200" />
+          <Property Name="tinhtrang" Type="int" />
+        </EntityType>
+        <EntityType Name="listorder">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ordercode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="TableID" Type="int" Nullable="false" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="Total_Money" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="MoneyPayed" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="StartDate" Type="datetime" />
+          <Property Name="EndDate" Type="datetime" />
+          <Property Name="Notes" Type="varchar" MaxLength="100" />
+          <Property Name="EmployeeTransfer" Type="int" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="KhachHang" Type="varchar" MaxLength="20" />
+          <Property Name="PercentMoney" Type="decimal" Precision="11" />
+        </EntityType>
+        <EntityType Name="logs">
+          <Key>
+            <PropertyRef Name="logid" />
+          </Key>
+          <Property Name="logid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="employeename" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="actiondate" Type="datetime" Nullable="false" />
+          <Property Name="actions" Type="varchar" Nullable="false" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="madein">
+          <Key>
+            <PropertyRef Name="MadeInID" />
+          </Key>
+          <Property Name="MadeInID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MadeInName" Type="varchar" MaxLength="100" />
+          <Property Name="ShortName" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Address" Type="varchar" MaxLength="500" />
+          <Property Name="HomePhone" Type="int" />
+          <Property Name="Telephone" Type="int" />
+          <Property Name="Fax" Type="int" />
+          <Property Name="Website" Type="varchar" MaxLength="300" />
+          <Property Name="Notes" Type="varchar" MaxLength="500" />
+          <Property Name="MSDKKD" Type="varchar" MaxLength="50" />
+          <Property Name="TDKKD" Type="varchar" MaxLength="100" />
+          <Property Name="MSTHUE" Type="varchar" MaxLength="50" />
+          <Property Name="DCDKKD" Type="varchar" MaxLength="100" />
+          <Property Name="SOTK" Type="varchar" MaxLength="100" />
+          <Property Name="KhuVuc" Type="int" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="SystemKey" Type="int" />
+        </EntityType>
+        <EntityType Name="maillog">
+          <Key>
+            <PropertyRef Name="email" />
+            <PropertyRef Name="sentdate" />
+          </Key>
+          <Property Name="email" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="sentdate" Type="datetime" Nullable="false" />
+          <Property Name="success" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mailreceiver">
+          <Key>
+            <PropertyRef Name="Email" />
+          </Key>
+          <Property Name="Email" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="AutoSend" Type="int" Nullable="false" />
+          <Property Name="AutoSendDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="managermenu">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MenuName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="managerright">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MenuID" Type="int" Nullable="false" />
+          <Property Name="m_Config" Type="tinyint" Nullable="false" />
+          <Property Name="m_Employee" Type="tinyint" Nullable="false" />
+          <Property Name="m_Customer" Type="tinyint" Nullable="false" />
+          <Property Name="m_Product" Type="tinyint" Nullable="false" />
+          <Property Name="m_Stock" Type="tinyint" Nullable="false" />
+          <Property Name="m_Plankwork" Type="tinyint" Nullable="false" />
+          <Property Name="m_Planday" Type="tinyint" Nullable="false" />
+          <Property Name="m_Table" Type="tinyint" Nullable="false" />
+          <Property Name="m_Company" Type="tinyint" Nullable="false" />
+          <Property Name="m_Email" Type="tinyint" Nullable="false" />
+          <Property Name="m_Empstatus" Type="tinyint" Nullable="false" />
+          <Property Name="m_Advance" Type="tinyint" Nullable="false" />
+          <Property Name="m_Paysheet" Type="tinyint" Nullable="false" />
+          <Property Name="m_ThuChi" Type="tinyint" Nullable="false" />
+          <Property Name="m_View" Type="tinyint" Nullable="false" />
+          <Property Name="m_Full" Type="tinyint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="menu">
+          <Key>
+            <PropertyRef Name="MenuID" />
+          </Key>
+          <Property Name="MenuID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MenuCode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="ImageIndex" Type="int" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="SystemKey" Type="int" />
+        </EntityType>
+        <EntityType Name="money_trading">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="TotalMoney" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="MoneyCredit" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="ReceiveDate" Type="datetime" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="ReceiveByEmployeeID" Type="int" />
+          <Property Name="ReceiveByEmployeeName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Notes" Type="text" />
+        </EntityType>
+        <EntityType Name="order_detail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="OrderID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="Price" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Promote" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="PricePromote" Type="decimal" Nullable="false" Precision="11" />
+        </EntityType>
+        <EntityType Name="pay_sheet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="BHYT" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Allowance" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Receive" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Over_Time" Type="decimal" Precision="11" />
+        </EntityType>
+        <EntityType Name="phieuchi">
+          <Key>
+            <PropertyRef Name="MaPC" />
+          </Key>
+          <Property Name="MaPC" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PCCode" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="MaNV" Type="int" />
+          <Property Name="NgayChi" Type="datetime" />
+          <Property Name="SoTienDaTra_PC" Type="decimal" Precision="11" />
+          <Property Name="LyDo" Type="varchar" MaxLength="100" />
+          <Property Name="DoiTuongChi" Type="varchar" MaxLength="100" />
+          <Property Name="DiaChi" Type="varchar" MaxLength="500" />
+          <Property Name="GhiChu" Type="varchar" MaxLength="500" />
+          <Property Name="DinhKem" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="phieuthu">
+          <Key>
+            <PropertyRef Name="MaPT" />
+          </Key>
+          <Property Name="MaPT" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PTCode" Type="varchar" MaxLength="20" />
+          <Property Name="MaNV" Type="int" />
+          <Property Name="NgayThu" Type="datetime" />
+          <Property Name="SoTienTra_PT" Type="decimal" Precision="11" />
+          <Property Name="Reason" Type="varchar" MaxLength="100" />
+          <Property Name="DoiTuongNop" Type="varchar" MaxLength="100" />
+          <Property Name="DiaChi" Type="varchar" MaxLength="500" />
+          <Property Name="GhiChu" Type="varchar" MaxLength="500" />
+          <Property Name="DinhKem" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="planwork">
+          <Key>
+            <PropertyRef Name="PlanWorkID" />
+          </Key>
+          <Property Name="PlanWorkID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PlanWorkName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="StartTime" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="EndTime" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Notes" Type="varchar" MaxLength="100" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="SystemKey" Type="int" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ProductCode" Type="varchar" Nullable="false" MaxLength="40" />
+          <Property Name="Price" Type="decimal" Precision="11" />
+          <Property Name="InputPrice" Type="decimal" Precision="11" />
+          <Property Name="Notes" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="MadeInID" Type="int" Nullable="false" />
+          <Property Name="ProductSkin" Type="int" Nullable="false" />
+          <Property Name="ImageIndex" Type="int" Nullable="false" />
+          <Property Name="StockID" Type="varchar" MaxLength="15" />
+          <Property Name="DVT" Type="int" />
+          <Property Name="ExpiryDate" Type="datetime" />
+          <Property Name="ExchangeQuantity" Type="double" />
+          <Property Name="ExchangeDVT" Type="int" />
+          <Property Name="Type" Type="int" />
+        </EntityType>
+        <EntityType Name="promote">
+          <Key>
+            <PropertyRef Name="PromoteID" />
+          </Key>
+          <Property Name="PromoteID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PromoteName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="EndDate" Type="datetime" Nullable="false" />
+          <Property Name="Deleted" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="promote_detail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PromoteID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="EndDate" Type="datetime" Nullable="false" />
+          <Property Name="Price" Type="decimal" Nullable="false" Precision="11" />
+          <Property Name="Deleted" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="smartlink">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SmarkLink" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="LevelMoney" Type="decimal" Precision="11" />
+          <Property Name="Percent_SmarkLink" Type="double" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="thongtinct">
+          <Key>
+            <PropertyRef Name="mact" />
+          </Key>
+          <Property Name="mact" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="tenct" Type="varchar" MaxLength="100" />
+          <Property Name="diachi" Type="varchar" MaxLength="100" />
+          <Property Name="sdt" Type="varchar" MaxLength="15" />
+          <Property Name="mobile" Type="varchar" MaxLength="15" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="fax" Type="varchar" MaxLength="15" />
+          <Property Name="logo" Type="blob" />
+          <Property Name="masothue" Type="varchar" MaxLength="15" />
+          <Property Name="website" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="thue">
+          <Key>
+            <PropertyRef Name="math" />
+          </Key>
+          <Property Name="math" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="sothue" Type="smallint" />
+        </EntityType>
+        <EntityType Name="tonkho">
+          <Key>
+            <PropertyRef Name="NGAYTHANG" />
+            <PropertyRef Name="MAMH" />
+          </Key>
+          <Property Name="NGAYTHANG" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="MAMH" Type="int" Nullable="false" />
+          <Property Name="SOLUONGDAU" Type="int" />
+          <Property Name="SOLUONGXUAT" Type="int" />
+          <Property Name="SOLUONGTON" Type="int" />
+          <Property Name="SOLUONGNHAP" Type="int" />
+        </EntityType>
+        <Association Name="FK_AreaTable_Area">
+          <End Role="area" Type="mycoffeeModel.Store.area" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="area_table" Type="mycoffeeModel.Store.area_table" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="area">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="area_table">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHDN_HDN">
+          <End Role="hoadonnhap" Type="mycoffeeModel.Store.hoadonnhap" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethdn" Type="mycoffeeModel.Store.chitiethdn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadonnhap">
+              <PropertyRef Name="MAHDN" />
+            </Principal>
+            <Dependent Role="chitiethdn">
+              <PropertyRef Name="MAHDN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHDN_Product">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethdn" Type="mycoffeeModel.Store.chitiethdn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="chitiethdn">
+              <PropertyRef Name="MAMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHoaDonTra">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethoadontra" Type="mycoffeeModel.Store.chitiethoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="chitiethoadontra">
+              <PropertyRef Name="mamh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHoaDonTra_HoaDonTra">
+          <End Role="hoadontra" Type="mycoffeeModel.Store.hoadontra" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethoadontra" Type="mycoffeeModel.Store.chitiethoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadontra">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="chitiethoadontra">
+              <PropertyRef Name="mahdt" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Deterine_Product">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="determine" Type="mycoffeeModel.Store.determine" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="determine">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DVT_Icon">
+          <End Role="icon" Type="mycoffeeModel.Store.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="donvitinh" Type="mycoffeeModel.Store.donvitinh" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="donvitinh">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_PlanWork">
+          <End Role="planwork" Type="mycoffeeModel.Store.planwork" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="planwork">
+              <PropertyRef Name="PlanWorkID" />
+            </Principal>
+            <Dependent Role="employee">
+              <PropertyRef Name="Worktime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmpState_Emp">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="employeestate" Type="mycoffeeModel.Store.employeestate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="employeestate">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HDN_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadonnhap" Type="mycoffeeModel.Store.hoadonnhap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="hoadonnhap">
+              <PropertyRef Name="MANV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HDN_NCC">
+          <End Role="madein" Type="mycoffeeModel.Store.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadonnhap" Type="mycoffeeModel.Store.hoadonnhap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="hoadonnhap">
+              <PropertyRef Name="MANCC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hoadontra_MadeIn">
+          <End Role="madein" Type="mycoffeeModel.Store.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadontra" Type="mycoffeeModel.Store.hoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="hoadontra">
+              <PropertyRef Name="mancc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KH_KV">
+          <End Role="khuvuc" Type="mycoffeeModel.Store.khuvuc" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="khachhang" Type="mycoffeeModel.Store.khachhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="khuvuc">
+              <PropertyRef Name="makv" />
+            </Principal>
+            <Dependent Role="khachhang">
+              <PropertyRef Name="MAKV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KH_SmartLink">
+          <End Role="smartlink" Type="mycoffeeModel.Store.smartlink" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="khachhang" Type="mycoffeeModel.Store.khachhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="smartlink">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="khachhang">
+              <PropertyRef Name="SmarkLink" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ListOrder_AreaTable">
+          <End Role="area_table" Type="mycoffeeModel.Store.area_table" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="listorder" Type="mycoffeeModel.Store.listorder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="area_table">
+              <PropertyRef Name="TableID" />
+            </Principal>
+            <Dependent Role="listorder">
+              <PropertyRef Name="TableID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ListOrder_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="listorder" Type="mycoffeeModel.Store.listorder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="listorder">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Menu_Icon">
+          <End Role="icon" Type="mycoffeeModel.Store.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="menu" Type="mycoffeeModel.Store.menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="menu">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MoneyTrading_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="money_trading" Type="mycoffeeModel.Store.money_trading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="money_trading">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderDetail_ListOrder">
+          <End Role="listorder" Type="mycoffeeModel.Store.listorder" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="order_detail" Type="mycoffeeModel.Store.order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="listorder">
+              <PropertyRef Name="OrderID" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderDetail_Product">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="order_detail" Type="mycoffeeModel.Store.order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PaySheet_Emp">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="pay_sheet" Type="mycoffeeModel.Store.pay_sheet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="pay_sheet">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PaySheet_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="advancemoney" Type="mycoffeeModel.Store.advancemoney" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="advancemoney">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhieuChi_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phieuchi" Type="mycoffeeModel.Store.phieuchi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="phieuchi">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhieuThu_Employee">
+          <End Role="employee" Type="mycoffeeModel.Store.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phieuthu" Type="mycoffeeModel.Store.phieuthu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="phieuthu">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_DVT">
+          <End Role="donvitinh" Type="mycoffeeModel.Store.donvitinh" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="donvitinh">
+              <PropertyRef Name="MADVT" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="DVT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Icon">
+          <End Role="icon" Type="mycoffeeModel.Store.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Kho">
+          <End Role="kho" Type="mycoffeeModel.Store.kho" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kho">
+              <PropertyRef Name="makho" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Madein">
+          <End Role="madein" Type="mycoffeeModel.Store.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="MadeInID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Menu">
+          <End Role="menu" Type="mycoffeeModel.Store.menu" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="menu">
+              <PropertyRef Name="MenuID" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="ProductSkin" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PromoteDetail_Product">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="promote_detail" Type="mycoffeeModel.Store.promote_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="promote_detail">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PromoteDetail_Promote">
+          <End Role="promote" Type="mycoffeeModel.Store.promote" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="promote_detail" Type="mycoffeeModel.Store.promote_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="promote">
+              <PropertyRef Name="PromoteID" />
+            </Principal>
+            <Dependent Role="promote_detail">
+              <PropertyRef Name="PromoteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TONKHO_Product">
+          <End Role="product" Type="mycoffeeModel.Store.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="tonkho" Type="mycoffeeModel.Store.tonkho" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="tonkho">
+              <PropertyRef Name="MAMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="mycoffeeModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="mycoffeeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="advancemoneys" EntityType="mycoffeeModel.advancemoney" />
+          <EntitySet Name="appointments" EntityType="mycoffeeModel.appointment" />
+          <EntitySet Name="areas" EntityType="mycoffeeModel.area" />
+          <EntitySet Name="area_table" EntityType="mycoffeeModel.area_table" />
+          <EntitySet Name="bophans" EntityType="mycoffeeModel.bophan" />
+          <EntitySet Name="chitiethdns" EntityType="mycoffeeModel.chitiethdn" />
+          <EntitySet Name="chitiethoadontras" EntityType="mycoffeeModel.chitiethoadontra" />
+          <EntitySet Name="companies" EntityType="mycoffeeModel.company" />
+          <EntitySet Name="configs" EntityType="mycoffeeModel.config" />
+          <EntitySet Name="congnokhachhangs" EntityType="mycoffeeModel.congnokhachhang" />
+          <EntitySet Name="congnonccs" EntityType="mycoffeeModel.congnoncc" />
+          <EntitySet Name="determines" EntityType="mycoffeeModel.determine" />
+          <EntitySet Name="donvitinhs" EntityType="mycoffeeModel.donvitinh" />
+          <EntitySet Name="employees" EntityType="mycoffeeModel.employee" />
+          <EntitySet Name="employeerights" EntityType="mycoffeeModel.employeeright" />
+          <EntitySet Name="employeestates" EntityType="mycoffeeModel.employeestate" />
+          <EntitySet Name="hoadonnhaps" EntityType="mycoffeeModel.hoadonnhap" />
+          <EntitySet Name="hoadontras" EntityType="mycoffeeModel.hoadontra" />
+          <EntitySet Name="icons" EntityType="mycoffeeModel.icon" />
+          <EntitySet Name="khachhangs" EntityType="mycoffeeModel.khachhang" />
+          <EntitySet Name="khoes" EntityType="mycoffeeModel.kho" />
+          <EntitySet Name="khuvucs" EntityType="mycoffeeModel.khuvuc" />
+          <EntitySet Name="listorders" EntityType="mycoffeeModel.listorder" />
+          <EntitySet Name="logs" EntityType="mycoffeeModel.log" />
+          <EntitySet Name="madeins" EntityType="mycoffeeModel.madein" />
+          <EntitySet Name="maillogs" EntityType="mycoffeeModel.maillog" />
+          <EntitySet Name="mailreceivers" EntityType="mycoffeeModel.mailreceiver" />
+          <EntitySet Name="managermenus" EntityType="mycoffeeModel.managermenu" />
+          <EntitySet Name="managerrights" EntityType="mycoffeeModel.managerright" />
+          <EntitySet Name="menus" EntityType="mycoffeeModel.menu" />
+          <EntitySet Name="money_trading" EntityType="mycoffeeModel.money_trading" />
+          <EntitySet Name="order_detail" EntityType="mycoffeeModel.order_detail" />
+          <EntitySet Name="pay_sheet" EntityType="mycoffeeModel.pay_sheet" />
+          <EntitySet Name="phieuchis" EntityType="mycoffeeModel.phieuchi" />
+          <EntitySet Name="phieuthus" EntityType="mycoffeeModel.phieuthu" />
+          <EntitySet Name="planworks" EntityType="mycoffeeModel.planwork" />
+          <EntitySet Name="products" EntityType="mycoffeeModel.product" />
+          <EntitySet Name="promotes" EntityType="mycoffeeModel.promote" />
+          <EntitySet Name="promote_detail" EntityType="mycoffeeModel.promote_detail" />
+          <EntitySet Name="smartlinks" EntityType="mycoffeeModel.smartlink" />
+          <EntitySet Name="thongtincts" EntityType="mycoffeeModel.thongtinct" />
+          <EntitySet Name="thues" EntityType="mycoffeeModel.thue" />
+          <EntitySet Name="tonkhoes" EntityType="mycoffeeModel.tonkho" />
+          <AssociationSet Name="FK_PaySheet_Employee" Association="mycoffeeModel.FK_PaySheet_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="advancemoney" EntitySet="advancemoneys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AreaTable_Area" Association="mycoffeeModel.FK_AreaTable_Area">
+            <End Role="area" EntitySet="areas" />
+            <End Role="area_table" EntitySet="area_table" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ListOrder_AreaTable" Association="mycoffeeModel.FK_ListOrder_AreaTable">
+            <End Role="area_table" EntitySet="area_table" />
+            <End Role="listorder" EntitySet="listorders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHDN_HDN" Association="mycoffeeModel.FK_CTHDN_HDN">
+            <End Role="hoadonnhap" EntitySet="hoadonnhaps" />
+            <End Role="chitiethdn" EntitySet="chitiethdns" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHDN_Product" Association="mycoffeeModel.FK_CTHDN_Product">
+            <End Role="product" EntitySet="products" />
+            <End Role="chitiethdn" EntitySet="chitiethdns" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHoaDonTra" Association="mycoffeeModel.FK_CTHoaDonTra">
+            <End Role="product" EntitySet="products" />
+            <End Role="chitiethoadontra" EntitySet="chitiethoadontras" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHoaDonTra_HoaDonTra" Association="mycoffeeModel.FK_CTHoaDonTra_HoaDonTra">
+            <End Role="hoadontra" EntitySet="hoadontras" />
+            <End Role="chitiethoadontra" EntitySet="chitiethoadontras" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Deterine_Product" Association="mycoffeeModel.FK_Deterine_Product">
+            <End Role="product" EntitySet="products" />
+            <End Role="determine" EntitySet="determines" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DVT_Icon" Association="mycoffeeModel.FK_DVT_Icon">
+            <End Role="icon" EntitySet="icons" />
+            <End Role="donvitinh" EntitySet="donvitinhs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_DVT" Association="mycoffeeModel.FK_Product_DVT">
+            <End Role="donvitinh" EntitySet="donvitinhs" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_PlanWork" Association="mycoffeeModel.FK_Employee_PlanWork">
+            <End Role="planwork" EntitySet="planworks" />
+            <End Role="employee" EntitySet="employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmpState_Emp" Association="mycoffeeModel.FK_EmpState_Emp">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="employeestate" EntitySet="employeestates" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HDN_Employee" Association="mycoffeeModel.FK_HDN_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="hoadonnhap" EntitySet="hoadonnhaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ListOrder_Employee" Association="mycoffeeModel.FK_ListOrder_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="listorder" EntitySet="listorders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MoneyTrading_Employee" Association="mycoffeeModel.FK_MoneyTrading_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="money_trading" EntitySet="money_trading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PaySheet_Emp" Association="mycoffeeModel.FK_PaySheet_Emp">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="pay_sheet" EntitySet="pay_sheet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhieuChi_Employee" Association="mycoffeeModel.FK_PhieuChi_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="phieuchi" EntitySet="phieuchis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhieuThu_Employee" Association="mycoffeeModel.FK_PhieuThu_Employee">
+            <End Role="employee" EntitySet="employees" />
+            <End Role="phieuthu" EntitySet="phieuthus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HDN_NCC" Association="mycoffeeModel.FK_HDN_NCC">
+            <End Role="madein" EntitySet="madeins" />
+            <End Role="hoadonnhap" EntitySet="hoadonnhaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hoadontra_MadeIn" Association="mycoffeeModel.FK_hoadontra_MadeIn">
+            <End Role="madein" EntitySet="madeins" />
+            <End Role="hoadontra" EntitySet="hoadontras" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Menu_Icon" Association="mycoffeeModel.FK_Menu_Icon">
+            <End Role="icon" EntitySet="icons" />
+            <End Role="menu" EntitySet="menus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Icon" Association="mycoffeeModel.FK_Product_Icon">
+            <End Role="icon" EntitySet="icons" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KH_KV" Association="mycoffeeModel.FK_KH_KV">
+            <End Role="khuvuc" EntitySet="khuvucs" />
+            <End Role="khachhang" EntitySet="khachhangs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_KH_SmartLink" Association="mycoffeeModel.FK_KH_SmartLink">
+            <End Role="smartlink" EntitySet="smartlinks" />
+            <End Role="khachhang" EntitySet="khachhangs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Kho" Association="mycoffeeModel.FK_Product_Kho">
+            <End Role="kho" EntitySet="khoes" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderDetail_ListOrder" Association="mycoffeeModel.FK_OrderDetail_ListOrder">
+            <End Role="listorder" EntitySet="listorders" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Madein" Association="mycoffeeModel.FK_Product_Madein">
+            <End Role="madein" EntitySet="madeins" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Product_Menu" Association="mycoffeeModel.FK_Product_Menu">
+            <End Role="menu" EntitySet="menus" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderDetail_Product" Association="mycoffeeModel.FK_OrderDetail_Product">
+            <End Role="product" EntitySet="products" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PromoteDetail_Product" Association="mycoffeeModel.FK_PromoteDetail_Product">
+            <End Role="product" EntitySet="products" />
+            <End Role="promote_detail" EntitySet="promote_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TONKHO_Product" Association="mycoffeeModel.FK_TONKHO_Product">
+            <End Role="product" EntitySet="products" />
+            <End Role="tonkho" EntitySet="tonkhoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PromoteDetail_Promote" Association="mycoffeeModel.FK_PromoteDetail_Promote">
+            <End Role="promote" EntitySet="promotes" />
+            <End Role="promote_detail" EntitySet="promote_detail" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="advancemoney">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="Advance_Money" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Notes" Type="String" MaxLength="10" Unicode="false" FixedLength="true" />
+          <Property Name="Reason" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_PaySheet_Employee" FromRole="advancemoney" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="appointment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="appointmenttitle" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="appointmentdate" Type="String" MaxLength="10" Unicode="false" FixedLength="true" />
+          <Property Name="alarmbefore" Type="Int32" />
+          <Property Name="alarmsound" Type="SByte" />
+          <Property Name="owner" Type="Int32" />
+        </EntityType>
+        <EntityType Name="area">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AreaCode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="SystemKey" Type="Int32" />
+          <NavigationProperty Name="area_table" Relationship="mycoffeeModel.FK_AreaTable_Area" FromRole="area" ToRole="area_table" />
+        </EntityType>
+        <EntityType Name="area_table">
+          <Key>
+            <PropertyRef Name="TableID" />
+          </Key>
+          <Property Name="TableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TableCode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="AreaID" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Empty" Type="Int32" Nullable="false" />
+          <Property Name="ImageIndex" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="area" Relationship="mycoffeeModel.FK_AreaTable_Area" FromRole="area_table" ToRole="area" />
+          <NavigationProperty Name="listorders" Relationship="mycoffeeModel.FK_ListOrder_AreaTable" FromRole="area_table" ToRole="listorder" />
+        </EntityType>
+        <EntityType Name="bophan">
+          <Key>
+            <PropertyRef Name="mabp" />
+          </Key>
+          <Property Name="mabp" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="tenbophan" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="tinhtrang" Type="Int32" />
+        </EntityType>
+        <EntityType Name="chitiethdn">
+          <Key>
+            <PropertyRef Name="MAHDN" />
+            <PropertyRef Name="MAMH" />
+          </Key>
+          <Property Name="MAHDN" Type="Int32" Nullable="false" />
+          <Property Name="MAMH" Type="Int32" Nullable="false" />
+          <Property Name="SOLUONGNHAP" Type="Int32" Nullable="false" />
+          <Property Name="GIANHAP" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="TINHTRANG" Type="Int32" />
+          <NavigationProperty Name="hoadonnhap" Relationship="mycoffeeModel.FK_CTHDN_HDN" FromRole="chitiethdn" ToRole="hoadonnhap" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_CTHDN_Product" FromRole="chitiethdn" ToRole="product" />
+        </EntityType>
+        <EntityType Name="chitiethoadontra">
+          <Key>
+            <PropertyRef Name="mahdt" />
+            <PropertyRef Name="mamh" />
+          </Key>
+          <Property Name="mahdt" Type="Int32" Nullable="false" />
+          <Property Name="mamh" Type="Int32" Nullable="false" />
+          <Property Name="soluongtra" Type="Int32" />
+          <Property Name="tinhtrang" Type="Int32" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_CTHoaDonTra" FromRole="chitiethoadontra" ToRole="product" />
+          <NavigationProperty Name="hoadontra" Relationship="mycoffeeModel.FK_CTHoaDonTra_HoaDonTra" FromRole="chitiethoadontra" ToRole="hoadontra" />
+        </EntityType>
+        <EntityType Name="company">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompanyName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Phone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="StartTime" Type="DateTime" Precision="0" />
+          <Property Name="EndTime" Type="DateTime" Precision="0" />
+          <Property Name="Fax" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="MaSoThue" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="config">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="10" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="congnokhachhang">
+          <Key>
+            <PropertyRef Name="makh" />
+          </Key>
+          <Property Name="makh" Type="Int32" Nullable="false" />
+          <Property Name="tongtientra" Type="Decimal" Precision="20" Scale="0" />
+          <Property Name="tongtiendatra" Type="Decimal" Precision="20" Scale="0" />
+        </EntityType>
+        <EntityType Name="congnoncc">
+          <Key>
+            <PropertyRef Name="mancc" />
+          </Key>
+          <Property Name="mancc" Type="Int32" Nullable="false" />
+          <Property Name="tongtientra" Type="Decimal" Precision="20" Scale="0" />
+          <Property Name="tongtiendatra" Type="Decimal" Precision="20" Scale="0" />
+        </EntityType>
+        <EntityType Name="determine">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="ProcductDetermine" Type="Int32" />
+          <Property Name="Quantity" Type="Single" Nullable="false" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_Deterine_Product" FromRole="determine" ToRole="product" />
+        </EntityType>
+        <EntityType Name="donvitinh">
+          <Key>
+            <PropertyRef Name="MADVT" />
+          </Key>
+          <Property Name="MADVT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DONVITINH1" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="ImageIndex" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="icon" Relationship="mycoffeeModel.FK_DVT_Icon" FromRole="donvitinh" ToRole="icon" />
+          <NavigationProperty Name="products" Relationship="mycoffeeModel.FK_Product_DVT" FromRole="donvitinh" ToRole="product" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="EmployeeID" />
+          </Key>
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="EmployeeCode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="EmployeeRight" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="EmployeeDate" Type="DateTime" Precision="0" />
+          <Property Name="Sex" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+          <Property Name="Salary" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Telephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Worktime" Type="Int32" Nullable="false" />
+          <Property Name="Department" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="Locked" Type="Int32" Nullable="false" />
+          <Property Name="ChangeEmployeeCode" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="advancemoneys" Relationship="mycoffeeModel.FK_PaySheet_Employee" FromRole="employee" ToRole="advancemoney" />
+          <NavigationProperty Name="planwork" Relationship="mycoffeeModel.FK_Employee_PlanWork" FromRole="employee" ToRole="planwork" />
+          <NavigationProperty Name="employeestates" Relationship="mycoffeeModel.FK_EmpState_Emp" FromRole="employee" ToRole="employeestate" />
+          <NavigationProperty Name="hoadonnhaps" Relationship="mycoffeeModel.FK_HDN_Employee" FromRole="employee" ToRole="hoadonnhap" />
+          <NavigationProperty Name="listorders" Relationship="mycoffeeModel.FK_ListOrder_Employee" FromRole="employee" ToRole="listorder" />
+          <NavigationProperty Name="money_trading" Relationship="mycoffeeModel.FK_MoneyTrading_Employee" FromRole="employee" ToRole="money_trading" />
+          <NavigationProperty Name="pay_sheet" Relationship="mycoffeeModel.FK_PaySheet_Emp" FromRole="employee" ToRole="pay_sheet" />
+          <NavigationProperty Name="phieuchis" Relationship="mycoffeeModel.FK_PhieuChi_Employee" FromRole="employee" ToRole="phieuchi" />
+          <NavigationProperty Name="phieuthus" Relationship="mycoffeeModel.FK_PhieuThu_Employee" FromRole="employee" ToRole="phieuthu" />
+        </EntityType>
+        <EntityType Name="employeeright">
+          <Key>
+            <PropertyRef Name="EmployeeID" />
+            <PropertyRef Name="SiteID" />
+            <PropertyRef Name="EmployeeRight1" />
+          </Key>
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="SiteID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeRight1" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="employeestate">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Notes" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_EmpState_Emp" FromRole="employeestate" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="hoadonnhap">
+          <Key>
+            <PropertyRef Name="MAHDN" />
+          </Key>
+          <Property Name="MAHDN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HDNCode" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="MANCC" Type="Int32" Nullable="false" />
+          <Property Name="MANV" Type="Int32" />
+          <Property Name="NGAYNHAP" Type="DateTime" Precision="0" />
+          <Property Name="TIENPHAITRA" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="TIENDATRA" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="GHICHU" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="TINHTRANG" Type="Int32" />
+          <NavigationProperty Name="chitiethdns" Relationship="mycoffeeModel.FK_CTHDN_HDN" FromRole="hoadonnhap" ToRole="chitiethdn" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_HDN_Employee" FromRole="hoadonnhap" ToRole="employee" />
+          <NavigationProperty Name="madein" Relationship="mycoffeeModel.FK_HDN_NCC" FromRole="hoadonnhap" ToRole="madein" />
+        </EntityType>
+        <EntityType Name="hoadontra">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="mahdt" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="mancc" Type="Int32" Nullable="false" />
+          <Property Name="mahdn" Type="Int32" Nullable="false" />
+          <Property Name="ngaytra" Type="DateTime" Precision="0" />
+          <Property Name="ghichu" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="tinhtrang" Type="Int32" />
+          <NavigationProperty Name="chitiethoadontras" Relationship="mycoffeeModel.FK_CTHoaDonTra_HoaDonTra" FromRole="hoadontra" ToRole="chitiethoadontra" />
+          <NavigationProperty Name="madein" Relationship="mycoffeeModel.FK_hoadontra_MadeIn" FromRole="hoadontra" ToRole="madein" />
+        </EntityType>
+        <EntityType Name="icon">
+          <Key>
+            <PropertyRef Name="idIcon" />
+          </Key>
+          <Property Name="idIcon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IconName" Type="Binary" MaxLength="65535" FixedLength="false" />
+          <Property Name="IconSkin" Type="Int32" />
+          <NavigationProperty Name="donvitinhs" Relationship="mycoffeeModel.FK_DVT_Icon" FromRole="icon" ToRole="donvitinh" />
+          <NavigationProperty Name="menus" Relationship="mycoffeeModel.FK_Menu_Icon" FromRole="icon" ToRole="menu" />
+          <NavigationProperty Name="products" Relationship="mycoffeeModel.FK_Product_Icon" FromRole="icon" ToRole="product" />
+        </EntityType>
+        <EntityType Name="khachhang">
+          <Key>
+            <PropertyRef Name="MAKH" />
+          </Key>
+          <Property Name="MAKH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KHCode" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="TENKH" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="TINHTRANG" Type="Int32" Nullable="false" />
+          <Property Name="TotalMoney" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="SmarkLink" Type="Int32" Nullable="false" />
+          <Property Name="MAKV" Type="Int32" />
+          <Property Name="SOTAIKHOAN" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="NGANHANG" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="MASOTHUE" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="DIACHI" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="SDT" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="FAX" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="WEBSITE" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="YAHOO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="SKYPE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="khuvuc" Relationship="mycoffeeModel.FK_KH_KV" FromRole="khachhang" ToRole="khuvuc" />
+          <NavigationProperty Name="smartlink" Relationship="mycoffeeModel.FK_KH_SmartLink" FromRole="khachhang" ToRole="smartlink" />
+        </EntityType>
+        <EntityType Name="kho">
+          <Key>
+            <PropertyRef Name="makho" />
+          </Key>
+          <Property Name="makho" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="manv" Type="Int32" Nullable="false" />
+          <Property Name="tenkho" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="diachi" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="sdtb" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="dtdd" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="nguoilh" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="fax" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="ghichu" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="tinhtrang" Type="Int32" />
+          <NavigationProperty Name="products" Relationship="mycoffeeModel.FK_Product_Kho" FromRole="kho" ToRole="product" />
+        </EntityType>
+        <EntityType Name="khuvuc">
+          <Key>
+            <PropertyRef Name="makv" />
+          </Key>
+          <Property Name="makv" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="tenkv" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ghichu" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="tinhtrang" Type="Int32" />
+          <NavigationProperty Name="khachhangs" Relationship="mycoffeeModel.FK_KH_KV" FromRole="khuvuc" ToRole="khachhang" />
+        </EntityType>
+        <EntityType Name="listorder">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ordercode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="TableID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="Total_Money" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="MoneyPayed" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="StartDate" Type="DateTime" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Precision="0" />
+          <Property Name="Notes" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="EmployeeTransfer" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="KhachHang" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="PercentMoney" Type="Decimal" Precision="11" Scale="0" />
+          <NavigationProperty Name="area_table" Relationship="mycoffeeModel.FK_ListOrder_AreaTable" FromRole="listorder" ToRole="area_table" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_ListOrder_Employee" FromRole="listorder" ToRole="employee" />
+          <NavigationProperty Name="order_detail" Relationship="mycoffeeModel.FK_OrderDetail_ListOrder" FromRole="listorder" ToRole="order_detail" />
+        </EntityType>
+        <EntityType Name="log">
+          <Key>
+            <PropertyRef Name="logid" />
+          </Key>
+          <Property Name="logid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="employeename" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="actiondate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="actions" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="madein">
+          <Key>
+            <PropertyRef Name="MadeInID" />
+          </Key>
+          <Property Name="MadeInID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MadeInName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ShortName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="HomePhone" Type="Int32" />
+          <Property Name="Telephone" Type="Int32" />
+          <Property Name="Fax" Type="Int32" />
+          <Property Name="Website" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="MSDKKD" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="TDKKD" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="MSTHUE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="DCDKKD" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="SOTK" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="KhuVuc" Type="Int32" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="SystemKey" Type="Int32" />
+          <NavigationProperty Name="hoadonnhaps" Relationship="mycoffeeModel.FK_HDN_NCC" FromRole="madein" ToRole="hoadonnhap" />
+          <NavigationProperty Name="hoadontras" Relationship="mycoffeeModel.FK_hoadontra_MadeIn" FromRole="madein" ToRole="hoadontra" />
+          <NavigationProperty Name="products" Relationship="mycoffeeModel.FK_Product_Madein" FromRole="madein" ToRole="product" />
+        </EntityType>
+        <EntityType Name="maillog">
+          <Key>
+            <PropertyRef Name="email" />
+            <PropertyRef Name="sentdate" />
+          </Key>
+          <Property Name="email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="sentdate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="success" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mailreceiver">
+          <Key>
+            <PropertyRef Name="Email" />
+          </Key>
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="AutoSend" Type="Int32" Nullable="false" />
+          <Property Name="AutoSendDate" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="managermenu">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MenuName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="managerright">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MenuID" Type="Int32" Nullable="false" />
+          <Property Name="m_Config" Type="SByte" Nullable="false" />
+          <Property Name="m_Employee" Type="SByte" Nullable="false" />
+          <Property Name="m_Customer" Type="SByte" Nullable="false" />
+          <Property Name="m_Product" Type="SByte" Nullable="false" />
+          <Property Name="m_Stock" Type="SByte" Nullable="false" />
+          <Property Name="m_Plankwork" Type="SByte" Nullable="false" />
+          <Property Name="m_Planday" Type="SByte" Nullable="false" />
+          <Property Name="m_Table" Type="SByte" Nullable="false" />
+          <Property Name="m_Company" Type="SByte" Nullable="false" />
+          <Property Name="m_Email" Type="SByte" Nullable="false" />
+          <Property Name="m_Empstatus" Type="SByte" Nullable="false" />
+          <Property Name="m_Advance" Type="SByte" Nullable="false" />
+          <Property Name="m_Paysheet" Type="SByte" Nullable="false" />
+          <Property Name="m_ThuChi" Type="SByte" Nullable="false" />
+          <Property Name="m_View" Type="SByte" Nullable="false" />
+          <Property Name="m_Full" Type="SByte" Nullable="false" />
+        </EntityType>
+        <EntityType Name="menu">
+          <Key>
+            <PropertyRef Name="MenuID" />
+          </Key>
+          <Property Name="MenuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MenuCode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="ImageIndex" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="SystemKey" Type="Int32" />
+          <NavigationProperty Name="icon" Relationship="mycoffeeModel.FK_Menu_Icon" FromRole="menu" ToRole="icon" />
+          <NavigationProperty Name="products" Relationship="mycoffeeModel.FK_Product_Menu" FromRole="menu" ToRole="product" />
+        </EntityType>
+        <EntityType Name="money_trading">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="TotalMoney" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="MoneyCredit" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ReceiveDate" Type="DateTime" Precision="0" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="ReceiveByEmployeeID" Type="Int32" />
+          <Property Name="ReceiveByEmployeeName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_MoneyTrading_Employee" FromRole="money_trading" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="order_detail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Promote" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="PricePromote" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <NavigationProperty Name="listorder" Relationship="mycoffeeModel.FK_OrderDetail_ListOrder" FromRole="order_detail" ToRole="listorder" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_OrderDetail_Product" FromRole="order_detail" ToRole="product" />
+        </EntityType>
+        <EntityType Name="pay_sheet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="BHYT" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Allowance" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Receive" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Over_Time" Type="Decimal" Precision="11" Scale="0" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_PaySheet_Emp" FromRole="pay_sheet" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="phieuchi">
+          <Key>
+            <PropertyRef Name="MaPC" />
+          </Key>
+          <Property Name="MaPC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PCCode" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="MaNV" Type="Int32" />
+          <Property Name="NgayChi" Type="DateTime" Precision="0" />
+          <Property Name="SoTienDaTra_PC" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="LyDo" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="DoiTuongChi" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="DiaChi" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="GhiChu" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="DinhKem" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_PhieuChi_Employee" FromRole="phieuchi" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="phieuthu">
+          <Key>
+            <PropertyRef Name="MaPT" />
+          </Key>
+          <Property Name="MaPT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PTCode" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="MaNV" Type="Int32" />
+          <Property Name="NgayThu" Type="DateTime" Precision="0" />
+          <Property Name="SoTienTra_PT" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="Reason" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="DoiTuongNop" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="DiaChi" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="GhiChu" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="DinhKem" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="employee" Relationship="mycoffeeModel.FK_PhieuThu_Employee" FromRole="phieuthu" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="planwork">
+          <Key>
+            <PropertyRef Name="PlanWorkID" />
+          </Key>
+          <Property Name="PlanWorkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PlanWorkName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="StartTime" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="EndTime" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="SystemKey" Type="Int32" />
+          <NavigationProperty Name="employees" Relationship="mycoffeeModel.FK_Employee_PlanWork" FromRole="planwork" ToRole="employee" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ProductCode" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="Price" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="InputPrice" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="Notes" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="MadeInID" Type="Int32" Nullable="false" />
+          <Property Name="ProductSkin" Type="Int32" Nullable="false" />
+          <Property Name="ImageIndex" Type="Int32" Nullable="false" />
+          <Property Name="StockID" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="DVT" Type="Int32" />
+          <Property Name="ExpiryDate" Type="DateTime" Precision="0" />
+          <Property Name="ExchangeQuantity" Type="Double" />
+          <Property Name="ExchangeDVT" Type="Int32" />
+          <Property Name="Type" Type="Int32" />
+          <NavigationProperty Name="chitiethdns" Relationship="mycoffeeModel.FK_CTHDN_Product" FromRole="product" ToRole="chitiethdn" />
+          <NavigationProperty Name="chitiethoadontras" Relationship="mycoffeeModel.FK_CTHoaDonTra" FromRole="product" ToRole="chitiethoadontra" />
+          <NavigationProperty Name="determines" Relationship="mycoffeeModel.FK_Deterine_Product" FromRole="product" ToRole="determine" />
+          <NavigationProperty Name="donvitinh" Relationship="mycoffeeModel.FK_Product_DVT" FromRole="product" ToRole="donvitinh" />
+          <NavigationProperty Name="icon" Relationship="mycoffeeModel.FK_Product_Icon" FromRole="product" ToRole="icon" />
+          <NavigationProperty Name="kho" Relationship="mycoffeeModel.FK_Product_Kho" FromRole="product" ToRole="kho" />
+          <NavigationProperty Name="madein" Relationship="mycoffeeModel.FK_Product_Madein" FromRole="product" ToRole="madein" />
+          <NavigationProperty Name="menu" Relationship="mycoffeeModel.FK_Product_Menu" FromRole="product" ToRole="menu" />
+          <NavigationProperty Name="order_detail" Relationship="mycoffeeModel.FK_OrderDetail_Product" FromRole="product" ToRole="order_detail" />
+          <NavigationProperty Name="promote_detail" Relationship="mycoffeeModel.FK_PromoteDetail_Product" FromRole="product" ToRole="promote_detail" />
+          <NavigationProperty Name="tonkhoes" Relationship="mycoffeeModel.FK_TONKHO_Product" FromRole="product" ToRole="tonkho" />
+        </EntityType>
+        <EntityType Name="promote">
+          <Key>
+            <PropertyRef Name="PromoteID" />
+          </Key>
+          <Property Name="PromoteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PromoteName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Deleted" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="promote_detail" Relationship="mycoffeeModel.FK_PromoteDetail_Promote" FromRole="promote" ToRole="promote_detail" />
+        </EntityType>
+        <EntityType Name="promote_detail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PromoteID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="11" Scale="0" />
+          <Property Name="Deleted" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_PromoteDetail_Product" FromRole="promote_detail" ToRole="product" />
+          <NavigationProperty Name="promote" Relationship="mycoffeeModel.FK_PromoteDetail_Promote" FromRole="promote_detail" ToRole="promote" />
+        </EntityType>
+        <EntityType Name="smartlink">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SmarkLink" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="LevelMoney" Type="Decimal" Precision="11" Scale="0" />
+          <Property Name="Percent_SmarkLink" Type="Double" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="khachhangs" Relationship="mycoffeeModel.FK_KH_SmartLink" FromRole="smartlink" ToRole="khachhang" />
+        </EntityType>
+        <EntityType Name="thongtinct">
+          <Key>
+            <PropertyRef Name="mact" />
+          </Key>
+          <Property Name="mact" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="tenct" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="diachi" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="sdt" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="mobile" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="fax" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="logo" Type="Binary" MaxLength="65535" FixedLength="false" />
+          <Property Name="masothue" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="website" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="thue">
+          <Key>
+            <PropertyRef Name="math" />
+          </Key>
+          <Property Name="math" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="sothue" Type="Int16" />
+        </EntityType>
+        <EntityType Name="tonkho">
+          <Key>
+            <PropertyRef Name="NGAYTHANG" />
+            <PropertyRef Name="MAMH" />
+          </Key>
+          <Property Name="NGAYTHANG" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MAMH" Type="Int32" Nullable="false" />
+          <Property Name="SOLUONGDAU" Type="Int32" />
+          <Property Name="SOLUONGXUAT" Type="Int32" />
+          <Property Name="SOLUONGTON" Type="Int32" />
+          <Property Name="SOLUONGNHAP" Type="Int32" />
+          <NavigationProperty Name="product" Relationship="mycoffeeModel.FK_TONKHO_Product" FromRole="tonkho" ToRole="product" />
+        </EntityType>
+        <Association Name="FK_PaySheet_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="advancemoney" Type="mycoffeeModel.advancemoney" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="advancemoney">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AreaTable_Area">
+          <End Role="area" Type="mycoffeeModel.area" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="area_table" Type="mycoffeeModel.area_table" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="area">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="area_table">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ListOrder_AreaTable">
+          <End Role="area_table" Type="mycoffeeModel.area_table" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="listorder" Type="mycoffeeModel.listorder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="area_table">
+              <PropertyRef Name="TableID" />
+            </Principal>
+            <Dependent Role="listorder">
+              <PropertyRef Name="TableID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHDN_HDN">
+          <End Role="hoadonnhap" Type="mycoffeeModel.hoadonnhap" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethdn" Type="mycoffeeModel.chitiethdn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadonnhap">
+              <PropertyRef Name="MAHDN" />
+            </Principal>
+            <Dependent Role="chitiethdn">
+              <PropertyRef Name="MAHDN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHDN_Product">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethdn" Type="mycoffeeModel.chitiethdn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="chitiethdn">
+              <PropertyRef Name="MAMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHoaDonTra">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethoadontra" Type="mycoffeeModel.chitiethoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="chitiethoadontra">
+              <PropertyRef Name="mamh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHoaDonTra_HoaDonTra">
+          <End Role="hoadontra" Type="mycoffeeModel.hoadontra" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="chitiethoadontra" Type="mycoffeeModel.chitiethoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadontra">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="chitiethoadontra">
+              <PropertyRef Name="mahdt" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Deterine_Product">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="determine" Type="mycoffeeModel.determine" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="determine">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DVT_Icon">
+          <End Role="icon" Type="mycoffeeModel.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="donvitinh" Type="mycoffeeModel.donvitinh" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="donvitinh">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_DVT">
+          <End Role="donvitinh" Type="mycoffeeModel.donvitinh" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="donvitinh">
+              <PropertyRef Name="MADVT" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="DVT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_PlanWork">
+          <End Role="planwork" Type="mycoffeeModel.planwork" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="planwork">
+              <PropertyRef Name="PlanWorkID" />
+            </Principal>
+            <Dependent Role="employee">
+              <PropertyRef Name="Worktime" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmpState_Emp">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="employeestate" Type="mycoffeeModel.employeestate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="employeestate">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HDN_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadonnhap" Type="mycoffeeModel.hoadonnhap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="hoadonnhap">
+              <PropertyRef Name="MANV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ListOrder_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="listorder" Type="mycoffeeModel.listorder" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="listorder">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MoneyTrading_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="money_trading" Type="mycoffeeModel.money_trading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="money_trading">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PaySheet_Emp">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="pay_sheet" Type="mycoffeeModel.pay_sheet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="pay_sheet">
+              <PropertyRef Name="EmployeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhieuChi_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phieuchi" Type="mycoffeeModel.phieuchi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="phieuchi">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhieuThu_Employee">
+          <End Role="employee" Type="mycoffeeModel.employee" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="phieuthu" Type="mycoffeeModel.phieuthu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="employee">
+              <PropertyRef Name="EmployeeID" />
+            </Principal>
+            <Dependent Role="phieuthu">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HDN_NCC">
+          <End Role="madein" Type="mycoffeeModel.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadonnhap" Type="mycoffeeModel.hoadonnhap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="hoadonnhap">
+              <PropertyRef Name="MANCC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hoadontra_MadeIn">
+          <End Role="madein" Type="mycoffeeModel.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="hoadontra" Type="mycoffeeModel.hoadontra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="hoadontra">
+              <PropertyRef Name="mancc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Menu_Icon">
+          <End Role="icon" Type="mycoffeeModel.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="menu" Type="mycoffeeModel.menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="menu">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Icon">
+          <End Role="icon" Type="mycoffeeModel.icon" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="icon">
+              <PropertyRef Name="idIcon" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="ImageIndex" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KH_KV">
+          <End Role="khuvuc" Type="mycoffeeModel.khuvuc" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="khachhang" Type="mycoffeeModel.khachhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="khuvuc">
+              <PropertyRef Name="makv" />
+            </Principal>
+            <Dependent Role="khachhang">
+              <PropertyRef Name="MAKV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_KH_SmartLink">
+          <End Role="smartlink" Type="mycoffeeModel.smartlink" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="khachhang" Type="mycoffeeModel.khachhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="smartlink">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="khachhang">
+              <PropertyRef Name="SmarkLink" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Kho">
+          <End Role="kho" Type="mycoffeeModel.kho" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kho">
+              <PropertyRef Name="makho" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderDetail_ListOrder">
+          <End Role="listorder" Type="mycoffeeModel.listorder" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="order_detail" Type="mycoffeeModel.order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="listorder">
+              <PropertyRef Name="OrderID" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Madein">
+          <End Role="madein" Type="mycoffeeModel.madein" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="madein">
+              <PropertyRef Name="MadeInID" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="MadeInID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Product_Menu">
+          <End Role="menu" Type="mycoffeeModel.menu" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="menu">
+              <PropertyRef Name="MenuID" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="ProductSkin" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderDetail_Product">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="order_detail" Type="mycoffeeModel.order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PromoteDetail_Product">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="promote_detail" Type="mycoffeeModel.promote_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="promote_detail">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TONKHO_Product">
+          <End Role="product" Type="mycoffeeModel.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="tonkho" Type="mycoffeeModel.tonkho" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="tonkho">
+              <PropertyRef Name="MAMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PromoteDetail_Promote">
+          <End Role="promote" Type="mycoffeeModel.promote" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="promote_detail" Type="mycoffeeModel.promote_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="promote">
+              <PropertyRef Name="PromoteID" />
+            </Principal>
+            <Dependent Role="promote_detail">
+              <PropertyRef Name="PromoteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="mycoffeeModelStoreContainer" CdmEntityContainer="mycoffeeEntities">
+          <EntitySetMapping Name="advancemoneys">
+            <EntityTypeMapping TypeName="mycoffeeModel.advancemoney">
+              <MappingFragment StoreEntitySet="advancemoney">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="Advance_Money" ColumnName="Advance_Money" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="appointments">
+            <EntityTypeMapping TypeName="mycoffeeModel.appointment">
+              <MappingFragment StoreEntitySet="appointment">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="appointmenttitle" ColumnName="appointmenttitle" />
+                <ScalarProperty Name="appointmentdate" ColumnName="appointmentdate" />
+                <ScalarProperty Name="alarmbefore" ColumnName="alarmbefore" />
+                <ScalarProperty Name="alarmsound" ColumnName="alarmsound" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="areas">
+            <EntityTypeMapping TypeName="mycoffeeModel.area">
+              <MappingFragment StoreEntitySet="area">
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="area_table">
+            <EntityTypeMapping TypeName="mycoffeeModel.area_table">
+              <MappingFragment StoreEntitySet="area_table">
+                <ScalarProperty Name="TableID" ColumnName="TableID" />
+                <ScalarProperty Name="TableCode" ColumnName="TableCode" />
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Empty" ColumnName="Empty" />
+                <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bophans">
+            <EntityTypeMapping TypeName="mycoffeeModel.bophan">
+              <MappingFragment StoreEntitySet="bophan">
+                <ScalarProperty Name="mabp" ColumnName="mabp" />
+                <ScalarProperty Name="tenbophan" ColumnName="tenbophan" />
+                <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="chitiethdns">
+            <EntityTypeMapping TypeName="mycoffeeModel.chitiethdn">
+              <MappingFragment StoreEntitySet="chitiethdn">
+                <ScalarProperty Name="MAHDN" ColumnName="MAHDN" />
+                <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+                <ScalarProperty Name="SOLUONGNHAP" ColumnName="SOLUONGNHAP" />
+                <ScalarProperty Name="GIANHAP" ColumnName="GIANHAP" />
+                <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="chitiethoadontras">
+            <EntityTypeMapping TypeName="mycoffeeModel.chitiethoadontra">
+              <MappingFragment StoreEntitySet="chitiethoadontra">
+                <ScalarProperty Name="mahdt" ColumnName="mahdt" />
+                <ScalarProperty Name="mamh" ColumnName="mamh" />
+                <ScalarProperty Name="soluongtra" ColumnName="soluongtra" />
+                <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="companies">
+            <EntityTypeMapping TypeName="mycoffeeModel.company">
+              <MappingFragment StoreEntitySet="company">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="MaSoThue" ColumnName="MaSoThue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="configs">
+            <EntityTypeMapping TypeName="mycoffeeModel.config">
+              <MappingFragment StoreEntitySet="config">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="congnokhachhangs">
+            <EntityTypeMapping TypeName="mycoffeeModel.congnokhachhang">
+              <MappingFragment StoreEntitySet="congnokhachhang">
+                <ScalarProperty Name="makh" ColumnName="makh" />
+                <ScalarProperty Name="tongtientra" ColumnName="tongtientra" />
+                <ScalarProperty Name="tongtiendatra" ColumnName="tongtiendatra" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="congnonccs">
+            <EntityTypeMapping TypeName="mycoffeeModel.congnoncc">
+              <MappingFragment StoreEntitySet="congnoncc">
+                <ScalarProperty Name="mancc" ColumnName="mancc" />
+                <ScalarProperty Name="tongtientra" ColumnName="tongtientra" />
+                <ScalarProperty Name="tongtiendatra" ColumnName="tongtiendatra" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="determines">
+            <EntityTypeMapping TypeName="mycoffeeModel.determine">
+              <MappingFragment StoreEntitySet="determine">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProcductDetermine" ColumnName="ProcductDetermine" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="donvitinhs">
+            <EntityTypeMapping TypeName="mycoffeeModel.donvitinh">
+              <MappingFragment StoreEntitySet="donvitinh">
+                <ScalarProperty Name="MADVT" ColumnName="MADVT" />
+                <ScalarProperty Name="DONVITINH1" ColumnName="DONVITINH" />
+                <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employees">
+            <EntityTypeMapping TypeName="mycoffeeModel.employee">
+              <MappingFragment StoreEntitySet="employee">
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+                <ScalarProperty Name="EmployeeCode" ColumnName="EmployeeCode" />
+                <ScalarProperty Name="EmployeeRight" ColumnName="EmployeeRight" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="EmployeeDate" ColumnName="EmployeeDate" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Worktime" ColumnName="Worktime" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Locked" ColumnName="Locked" />
+                <ScalarProperty Name="ChangeEmployeeCode" ColumnName="ChangeEmployeeCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employeerights">
+            <EntityTypeMapping TypeName="mycoffeeModel.employeeright">
+              <MappingFragment StoreEntitySet="employeeright">
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+                <ScalarProperty Name="EmployeeRight1" ColumnName="EmployeeRight" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employeestates">
+            <EntityTypeMapping TypeName="mycoffeeModel.employeestate">
+              <MappingFragment StoreEntitySet="employeestate">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hoadonnhaps">
+            <EntityTypeMapping TypeName="mycoffeeModel.hoadonnhap">
+              <MappingFragment StoreEntitySet="hoadonnhap">
+                <ScalarProperty Name="MAHDN" ColumnName="MAHDN" />
+                <ScalarProperty Name="HDNCode" ColumnName="HDNCode" />
+                <ScalarProperty Name="MANCC" ColumnName="MANCC" />
+                <ScalarProperty Name="MANV" ColumnName="MANV" />
+                <ScalarProperty Name="NGAYNHAP" ColumnName="NGAYNHAP" />
+                <ScalarProperty Name="TIENPHAITRA" ColumnName="TIENPHAITRA" />
+                <ScalarProperty Name="TIENDATRA" ColumnName="TIENDATRA" />
+                <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+                <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hoadontras">
+            <EntityTypeMapping TypeName="mycoffeeModel.hoadontra">
+              <MappingFragment StoreEntitySet="hoadontra">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="mahdt" ColumnName="mahdt" />
+                <ScalarProperty Name="mancc" ColumnName="mancc" />
+                <ScalarProperty Name="mahdn" ColumnName="mahdn" />
+                <ScalarProperty Name="ngaytra" ColumnName="ngaytra" />
+                <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+                <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="icons">
+            <EntityTypeMapping TypeName="mycoffeeModel.icon">
+              <MappingFragment StoreEntitySet="icon">
+                <ScalarProperty Name="idIcon" ColumnName="idIcon" />
+                <ScalarProperty Name="IconName" ColumnName="IconName" />
+                <ScalarProperty Name="IconSkin" ColumnName="IconSkin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="khachhangs">
+            <EntityTypeMapping TypeName="mycoffeeModel.khachhang">
+              <MappingFragment StoreEntitySet="khachhang">
+                <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+                <ScalarProperty Name="KHCode" ColumnName="KHCode" />
+                <ScalarProperty Name="TENKH" ColumnName="TENKH" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+                <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+                <ScalarProperty Name="SmarkLink" ColumnName="SmarkLink" />
+                <ScalarProperty Name="MAKV" ColumnName="MAKV" />
+                <ScalarProperty Name="SOTAIKHOAN" ColumnName="SOTAIKHOAN" />
+                <ScalarProperty Name="NGANHANG" ColumnName="NGANHANG" />
+                <ScalarProperty Name="MASOTHUE" ColumnName="MASOTHUE" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="WEBSITE" ColumnName="WEBSITE" />
+                <ScalarProperty Name="YAHOO" ColumnName="YAHOO" />
+                <ScalarProperty Name="SKYPE" ColumnName="SKYPE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="khoes">
+            <EntityTypeMapping TypeName="mycoffeeModel.kho">
+              <MappingFragment StoreEntitySet="kho">
+                <ScalarProperty Name="makho" ColumnName="makho" />
+                <ScalarProperty Name="manv" ColumnName="manv" />
+                <ScalarProperty Name="tenkho" ColumnName="tenkho" />
+                <ScalarProperty Name="diachi" ColumnName="diachi" />
+                <ScalarProperty Name="sdtb" ColumnName="sdtb" />
+                <ScalarProperty Name="dtdd" ColumnName="dtdd" />
+                <ScalarProperty Name="nguoilh" ColumnName="nguoilh" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+                <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="khuvucs">
+            <EntityTypeMapping TypeName="mycoffeeModel.khuvuc">
+              <MappingFragment StoreEntitySet="khuvuc">
+                <ScalarProperty Name="makv" ColumnName="makv" />
+                <ScalarProperty Name="tenkv" ColumnName="tenkv" />
+                <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+                <ScalarProperty Name="tinhtrang" ColumnName="tinhtrang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="listorders">
+            <EntityTypeMapping TypeName="mycoffeeModel.listorder">
+              <MappingFragment StoreEntitySet="listorder">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="Ordercode" ColumnName="Ordercode" />
+                <ScalarProperty Name="TableID" ColumnName="TableID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="Total_Money" ColumnName="Total_Money" />
+                <ScalarProperty Name="MoneyPayed" ColumnName="MoneyPayed" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="EmployeeTransfer" ColumnName="EmployeeTransfer" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="KhachHang" ColumnName="KhachHang" />
+                <ScalarProperty Name="PercentMoney" ColumnName="PercentMoney" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="logs">
+            <EntityTypeMapping TypeName="mycoffeeModel.log">
+              <MappingFragment StoreEntitySet="logs">
+                <ScalarProperty Name="logid" ColumnName="logid" />
+                <ScalarProperty Name="employeename" ColumnName="employeename" />
+                <ScalarProperty Name="actiondate" ColumnName="actiondate" />
+                <ScalarProperty Name="actions" ColumnName="actions" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="madeins">
+            <EntityTypeMapping TypeName="mycoffeeModel.madein">
+              <MappingFragment StoreEntitySet="madein">
+                <ScalarProperty Name="MadeInID" ColumnName="MadeInID" />
+                <ScalarProperty Name="MadeInName" ColumnName="MadeInName" />
+                <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Website" ColumnName="Website" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="MSDKKD" ColumnName="MSDKKD" />
+                <ScalarProperty Name="TDKKD" ColumnName="TDKKD" />
+                <ScalarProperty Name="MSTHUE" ColumnName="MSTHUE" />
+                <ScalarProperty Name="DCDKKD" ColumnName="DCDKKD" />
+                <ScalarProperty Name="SOTK" ColumnName="SOTK" />
+                <ScalarProperty Name="KhuVuc" ColumnName="KhuVuc" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="maillogs">
+            <EntityTypeMapping TypeName="mycoffeeModel.maillog">
+              <MappingFragment StoreEntitySet="maillog">
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="sentdate" ColumnName="sentdate" />
+                <ScalarProperty Name="success" ColumnName="success" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mailreceivers">
+            <EntityTypeMapping TypeName="mycoffeeModel.mailreceiver">
+              <MappingFragment StoreEntitySet="mailreceiver">
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="AutoSend" ColumnName="AutoSend" />
+                <ScalarProperty Name="AutoSendDate" ColumnName="AutoSendDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="managermenus">
+            <EntityTypeMapping TypeName="mycoffeeModel.managermenu">
+              <MappingFragment StoreEntitySet="managermenu">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="managerrights">
+            <EntityTypeMapping TypeName="mycoffeeModel.managerright">
+              <MappingFragment StoreEntitySet="managerright">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+                <ScalarProperty Name="m_Config" ColumnName="m_Config" />
+                <ScalarProperty Name="m_Employee" ColumnName="m_Employee" />
+                <ScalarProperty Name="m_Customer" ColumnName="m_Customer" />
+                <ScalarProperty Name="m_Product" ColumnName="m_Product" />
+                <ScalarProperty Name="m_Stock" ColumnName="m_Stock" />
+                <ScalarProperty Name="m_Plankwork" ColumnName="m_Plankwork" />
+                <ScalarProperty Name="m_Planday" ColumnName="m_Planday" />
+                <ScalarProperty Name="m_Table" ColumnName="m_Table" />
+                <ScalarProperty Name="m_Company" ColumnName="m_Company" />
+                <ScalarProperty Name="m_Email" ColumnName="m_Email" />
+                <ScalarProperty Name="m_Empstatus" ColumnName="m_Empstatus" />
+                <ScalarProperty Name="m_Advance" ColumnName="m_Advance" />
+                <ScalarProperty Name="m_Paysheet" ColumnName="m_Paysheet" />
+                <ScalarProperty Name="m_ThuChi" ColumnName="m_ThuChi" />
+                <ScalarProperty Name="m_View" ColumnName="m_View" />
+                <ScalarProperty Name="m_Full" ColumnName="m_Full" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="menus">
+            <EntityTypeMapping TypeName="mycoffeeModel.menu">
+              <MappingFragment StoreEntitySet="menu">
+                <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+                <ScalarProperty Name="MenuCode" ColumnName="MenuCode" />
+                <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="money_trading">
+            <EntityTypeMapping TypeName="mycoffeeModel.money_trading">
+              <MappingFragment StoreEntitySet="money_trading">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+                <ScalarProperty Name="MoneyCredit" ColumnName="MoneyCredit" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="ReceiveDate" ColumnName="ReceiveDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ReceiveByEmployeeID" ColumnName="ReceiveByEmployeeID" />
+                <ScalarProperty Name="ReceiveByEmployeeName" ColumnName="ReceiveByEmployeeName" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="order_detail">
+            <EntityTypeMapping TypeName="mycoffeeModel.order_detail">
+              <MappingFragment StoreEntitySet="order_detail">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Promote" ColumnName="Promote" />
+                <ScalarProperty Name="PricePromote" ColumnName="PricePromote" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pay_sheet">
+            <EntityTypeMapping TypeName="mycoffeeModel.pay_sheet">
+              <MappingFragment StoreEntitySet="pay_sheet">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="BHYT" ColumnName="BHYT" />
+                <ScalarProperty Name="Allowance" ColumnName="Allowance" />
+                <ScalarProperty Name="Receive" ColumnName="Receive" />
+                <ScalarProperty Name="Over_Time" ColumnName="Over_Time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="phieuchis">
+            <EntityTypeMapping TypeName="mycoffeeModel.phieuchi">
+              <MappingFragment StoreEntitySet="phieuchi">
+                <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+                <ScalarProperty Name="PCCode" ColumnName="PCCode" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="NgayChi" ColumnName="NgayChi" />
+                <ScalarProperty Name="SoTienDaTra_PC" ColumnName="SoTienDaTra_PC" />
+                <ScalarProperty Name="LyDo" ColumnName="LyDo" />
+                <ScalarProperty Name="DoiTuongChi" ColumnName="DoiTuongChi" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="DinhKem" ColumnName="DinhKem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="phieuthus">
+            <EntityTypeMapping TypeName="mycoffeeModel.phieuthu">
+              <MappingFragment StoreEntitySet="phieuthu">
+                <ScalarProperty Name="MaPT" ColumnName="MaPT" />
+                <ScalarProperty Name="PTCode" ColumnName="PTCode" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="NgayThu" ColumnName="NgayThu" />
+                <ScalarProperty Name="SoTienTra_PT" ColumnName="SoTienTra_PT" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="DoiTuongNop" ColumnName="DoiTuongNop" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="DinhKem" ColumnName="DinhKem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="planworks">
+            <EntityTypeMapping TypeName="mycoffeeModel.planwork">
+              <MappingFragment StoreEntitySet="planwork">
+                <ScalarProperty Name="PlanWorkID" ColumnName="PlanWorkID" />
+                <ScalarProperty Name="PlanWorkName" ColumnName="PlanWorkName" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="SystemKey" ColumnName="SystemKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="mycoffeeModel.product">
+              <MappingFragment StoreEntitySet="product">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="InputPrice" ColumnName="InputPrice" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="MadeInID" ColumnName="MadeInID" />
+                <ScalarProperty Name="ProductSkin" ColumnName="ProductSkin" />
+                <ScalarProperty Name="ImageIndex" ColumnName="ImageIndex" />
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="DVT" ColumnName="DVT" />
+                <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+                <ScalarProperty Name="ExchangeQuantity" ColumnName="ExchangeQuantity" />
+                <ScalarProperty Name="ExchangeDVT" ColumnName="ExchangeDVT" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="promotes">
+            <EntityTypeMapping TypeName="mycoffeeModel.promote">
+              <MappingFragment StoreEntitySet="promote">
+                <ScalarProperty Name="PromoteID" ColumnName="PromoteID" />
+                <ScalarProperty Name="PromoteName" ColumnName="PromoteName" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="promote_detail">
+            <EntityTypeMapping TypeName="mycoffeeModel.promote_detail">
+              <MappingFragment StoreEntitySet="promote_detail">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="PromoteID" ColumnName="PromoteID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="smartlinks">
+            <EntityTypeMapping TypeName="mycoffeeModel.smartlink">
+              <MappingFragment StoreEntitySet="smartlink">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="SmarkLink" ColumnName="SmarkLink" />
+                <ScalarProperty Name="LevelMoney" ColumnName="LevelMoney" />
+                <ScalarProperty Name="Percent_SmarkLink" ColumnName="Percent_SmarkLink" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="thongtincts">
+            <EntityTypeMapping TypeName="mycoffeeModel.thongtinct">
+              <MappingFragment StoreEntitySet="thongtinct">
+                <ScalarProperty Name="mact" ColumnName="mact" />
+                <ScalarProperty Name="tenct" ColumnName="tenct" />
+                <ScalarProperty Name="diachi" ColumnName="diachi" />
+                <ScalarProperty Name="sdt" ColumnName="sdt" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="logo" ColumnName="logo" />
+                <ScalarProperty Name="masothue" ColumnName="masothue" />
+                <ScalarProperty Name="website" ColumnName="website" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="thues">
+            <EntityTypeMapping TypeName="mycoffeeModel.thue">
+              <MappingFragment StoreEntitySet="thue">
+                <ScalarProperty Name="math" ColumnName="math" />
+                <ScalarProperty Name="sothue" ColumnName="sothue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tonkhoes">
+            <EntityTypeMapping TypeName="mycoffeeModel.tonkho">
+              <MappingFragment StoreEntitySet="tonkho">
+                <ScalarProperty Name="NGAYTHANG" ColumnName="NGAYTHANG" />
+                <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+                <ScalarProperty Name="SOLUONGDAU" ColumnName="SOLUONGDAU" />
+                <ScalarProperty Name="SOLUONGXUAT" ColumnName="SOLUONGXUAT" />
+                <ScalarProperty Name="SOLUONGTON" ColumnName="SOLUONGTON" />
+                <ScalarProperty Name="SOLUONGNHAP" ColumnName="SOLUONGNHAP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

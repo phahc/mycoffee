@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\Coffee.csproj": {}
+  },
+  "projects": {
+    "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\Coffee.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\Coffee.csproj",
+        "projectName": "Coffee",
+        "projectPath": "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\Coffee.csproj",
+        "packagesPath": "C:\\Users\\phahc\\.nuget\\packages\\",
+        "outputPath": "D:\\Private\\e-learning\\Thiet ke phan mem\\Final-Project\\th01\\Coffee\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\phahc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
+            "TracerX-Logger": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
